@@ -1,0 +1,48 @@
+<include file="Public:header"/>
+            <!-- 个人中心 -->
+            <ul class="ui-list ui-border-tb">
+                <li>
+                    <div class="ui-avatar">
+                        <span style="background-image:url(__PUBLIC__/{$user['avatar']})"></span>
+                    </div>
+                    <div class="ui-list-info ui-border-t" style="margin-left:36px">
+                        <h4 class="ui-nowrap">{$user['nickname']}</h4>
+                    </div>
+                </li>
+            </ul>
+            <div class="ui-form ui-border-t">
+                <form action="#">
+                    <div class="ui-form-item ui-form-item-show ui-border-b">
+                        <label for="#">账号</label>
+                        <input type="text" value="{$user['username']}" readonly>
+                    </div>
+                    <div class="ui-form-item ui-form-item-show ui-border-b">
+                        <label for="#">电话</label>
+                        <input type="text" value="{$user['phone']}" readonly>
+                    </div>
+                    <div class="ui-form-item ui-form-item-show ui-border-b">
+                        <label for="#">余额</label>
+                        <input type="text" value="{$user['balance']}" readonly>
+                    </div>
+
+                    <div class="ui-form-item ui-form-item-r ui-border-b">
+                        <input type="text" placeholder="请输入金额">
+                        <button type="button" class="ui-border-l">充值</button>
+                        <a href="#" class="ui-icon-close"></a>
+                    </div>
+                    <div class="ui-form-item ui-form-item-link ui-border-b">
+                        <a href="#">我的订单</a>
+                    </div>
+                    <div class="ui-form-item ui-form-item-link ui-border-b">
+                        <a href="#">我的投诉</a>
+                    </div>
+                </form>
+            </div>
+            <div class="ui-btn-wrap">
+                <button class="ui-btn-lg ui-btn-danger" onclick="location.href = $('#controller').attr('value')+'/logout';">
+                    注销
+                </button>
+            </div>
+            <input type="hidden" id="controller" value="__CONTROLLER__">
+
+<include file="Public:footer"/>

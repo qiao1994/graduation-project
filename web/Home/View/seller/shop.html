@@ -1,0 +1,81 @@
+<include file="Public:seller_header"/>
+        <div class="admin">
+            <form method="post" class="form-x" action=""  enctype="multipart/form-data">
+                <div class="form-group">
+                    <div class="label">
+                        <label>店铺审核</label>
+                    </div>
+                    <div class="field" style="padding:7px 0px;">
+                        <label>
+                            <if condition="$shop['state'] eq 0"> 未通过 <small>请等待管理员审核</small>
+                            <else/>
+                                已通过
+                            </if>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="name">店铺名称</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="name" name="name" size="50" placeholder="店铺名称" data-validate="required:请填写你的店铺名称"  value="{$shop['name']}" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="address">店铺地址</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="address" name="address" size="50" placeholder="店铺地址" data-validate="required:请填写你的店铺地址" value="{$shop['address']}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="address">店铺电话</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="tel" name="tel" size="50" placeholder="店铺电话" data-validate="required:请填写你的店铺电话,tel:请填写合法的电话或手机" value="{$shop['tel']}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="introduction">店铺简介</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介">{$shop['introduction']}</textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="img">首页图片</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/web/images/shop/{$shop['img']}" style="width:160px;height:160px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="img"/></a>
+                        <div class="input-note">
+                            首页预览图片，分辨率160*160
+                        </div>
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="banner">横幅图片</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/web/images/shop_banner/{$shop['banner']}" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="banner"/></a>
+                        <div class="input-note">
+                            详情页横幅图片，分辨率260*100
+                        </div>
+                    </div>
+                </div>                
+                <div class="form-button">
+                    <input type="hidden" class="input" id="id" name="id" value="{$shop['id']}" />
+                    <button class="button bg-main" type="submit">提交</button>
+                </div>
+            </form>
+        </div>
+<include file="Public:seller_footer"/>

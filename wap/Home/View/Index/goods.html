@@ -1,0 +1,17 @@
+<include file="Public:header"/>
+    <script src="__PUBLIC__/wap/js/goods.js"></script>
+    <!-- 菜品列表 -->
+    <ul class="ui-list ui-list-link ui-border-tb">
+        <volist name="goods" id="vo">
+            <li class="ui-border-t goods" goods-id="{$vo['id']}">
+                <div class="ui-list-img">
+                    <span style="background-image:url(__PUBLIC__/web/images/goods/{$vo['img']})"></span>
+                </div>
+                <div class="ui-list-info">
+                    <h4 class="ui-nowrap">{$vo['name']}</h4>
+                    <p class="ui-nowrap">{$vo['introduction']}</p>
+                </div>
+            </li>
+        </volist>
+    </ul>
+<include file="Public:footer"/>

@@ -1,0 +1,39 @@
+<include file="Public:header"/>
+    <!-- 引入js -->
+    <script src="__PUBLIC__/wap/js/login.js"></script>
+    <!-- 系统名称 -->
+    <div class="ui-whitespace" style="text-align:center;font-size:200%;margin-top:40px;">
+        {$system['name']}
+    </div>
+    <!-- 系统名称结束 -->
+
+    <!-- 登录表单 -->
+    <div class="ui-form ui-border-t" style="margin-top:40px">
+         <form method="post" id="login-form">
+            <div class="ui-form-item ui-border-b">
+                <label style="display:inlin-block;text-align:center;">
+                    用户名
+                </label>
+                <input id="username" name="username" type="text" placeholder="请输入您的用户名">
+                <a href="#" input-id="username" class="ui-icon-close"></a>
+            </div>
+            <div class="ui-form-item ui-border-b">
+                <label style="display:inlin-block;text-align:center;">
+                    密码
+                </label>
+                <input id="password" name="password" type="password" placeholder="请输入您的密码">
+                <a href="#" input-id="pwssword" class="ui-icon-close"></a>
+            </div>
+            <div class="ui-btn-group" style="margin-top:20px">
+                <button class="ui-btn-lg ui-btn-primary" type="submit">
+                    登录
+                </button>
+                <button class="ui-btn-lg" type="button" id="register-button" >
+                    注册
+                </button>
+            </div>
+        </form>
+    </div>
+    <!-- 登录表单结束 -->
+    <a href="http://127.0.0.1:8001/home/seller" style="float:right;margin:10px 20px">商家登录</a>
+<include file="Public:footer"/>

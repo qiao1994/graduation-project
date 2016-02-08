@@ -1,0 +1,58 @@
+<include file="Public:header"/>
+    <script src="__PUBLIC__/wap/js/register.js"></script>
+    <div class="ui-whitespace" style="text-align:center;font-size:200%;margin-top:40px;">
+        {$system['name']}
+    </div>
+    <div class="ui-form ui-border-t" style="margin-top:40px">
+         <form method="post" id="register-form">
+            <div class="ui-form-item ui-border-b">
+                <label>
+                    用户名
+                </label>
+                <input id="username" name="username" type="text" placeholder="请输入您的用户名">
+                <a href="#" input-id="username" class="ui-icon-close">
+                </a>
+            </div>
+            <div class="ui-form-item ui-border-b">
+                <label>
+                    密码
+                </label>
+                <input id="password" name="password" type="password" placeholder="请输入您的密码">
+                <a href="#" input-id="pwssword" class="ui-icon-close">
+                </a>
+            </div>
+            <div class="ui-form-item ui-border-b">
+                <label>
+                    重复密码
+                </label>
+                <input id="repassword" name="repassword" type="password" placeholder="请重复您的密码">
+                <a href="#" input-id="repwssword" class="ui-icon-close">
+                </a>
+            </div>  
+            <div class="ui-form-item ui-border-b">
+                <label>
+                    电话
+                </label>
+                <input id="phone" name="phone" type="text" placeholder="请输入您的电话">
+                <a href="#" input-id="phone" class="ui-icon-close">
+                </a>
+            </div>
+            <div class="ui-form-item ui-border-b">
+                <label>
+                    QQ号码
+                </label>
+                <input id="qq" name="qq" type="text" placeholder="请输入您的QQ号码">
+                <a href="#" input-id="qq" class="ui-icon-close">
+                </a>
+            </div>
+            <div class="ui-btn-group" style="margin-top:20px">
+                <button class="ui-btn-lg ui-btn-primary" type="submit">
+                    注册
+                </button>
+                <button class="ui-btn-lg" type="button" onclick="history.back()">
+                    返回
+                </button>
+            </div>
+        </form>
+    </div>
+    <input type="hidden" id="controller" value="__CONTROLLER__">

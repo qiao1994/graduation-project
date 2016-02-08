@@ -1,0 +1,76 @@
+<include file="Public:seller_header"/>
+        <div class="admin">
+            <form method="post" class="form-x" enctype="multipart/form-data">
+                <div class="form-group">
+                    <div class="label">
+                        <label for="sale_state">销售状态</label>
+                    </div>
+                    <div class="field">
+                        <select class="input" name="sale_state" id="sale_state">
+                            <option value="1">正在销售</option>
+                            <option value="0">暂停销售</option>
+                        </select>                    
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="name">菜品名称</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="name" name="name" size="50" placeholder="菜品名称" data-validate="required:请填写你的菜品名称"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="univalent">菜品单价</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="univalent" name="univalent" size="50" placeholder="菜品单价" data-validate="required:请填写你的菜品单价"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="serial">菜品顺序</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="serial" name="serial" size="50" placeholder="菜品顺序" data-validate="required:请填写你的菜品顺序"/>
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="introduction">菜品简介</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写菜品简介" data-validate="required:请填写菜品简介"></textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="img">首页图片</label>
+                    </div>
+                    <div class="field">
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="img" validate="required:请选择首页图片"/></a>
+                        <div class="input-note">
+                            首页图片，分辨率160*160
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="banner">横幅图片</label>
+                    </div>
+                    <div class="field">
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="banner" validate="required:请选择横幅图片"/></a>
+                        <div class="input-note">
+                            详情页横幅图片，分辨率260*100
+                        </div>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <button class="button bg-main" type="submit">提交</button>
+                    <button class="button" onclick="javascript:history.back(-1);" type="button">返回</button>
+                </div>
+            </form>
+        </div>
+<include file="Public:seller_footer"/>

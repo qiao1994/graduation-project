@@ -1,0 +1,101 @@
+<include file="Public:admin_header"/>
+        <div class="admin">
+            <form method="post" class="form-x" enctype="multipart/form-data">
+                <div class="form-group">
+                    <div class="label">
+                        <label>审核状态</label>
+                    </div>
+                    <div class="field">
+                        <select class="input" name="state" id="state">
+                            <option value="1" <if condition="$goods['state'] eq 1"> selected="selected" </if>>审核通过</option>
+                            <option value="0" <if condition="$goods['state'] eq 0"> selected="selected" </if>>未审核</option>
+                        </select> 
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label>是否推荐</label>
+                    </div>
+                    <div class="field">
+                        <select class="input" name="recommend" id="recommend">
+                            <option value="1" <if condition="$goods['recommend'] eq 1"> selected="selected" </if>>推荐</option>
+                            <option value="0" <if condition="$goods['recommend'] eq 0"> selected="selected" </if>>不推荐</option>
+                        </select> 
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="sale_state">销售状态</label>
+                    </div>
+                    <div class="field">
+                        <select class="input" name="sale_state" id="sale_state">
+                            <option value="1" <if condition="$goods['sale_state'] eq 1"> selected="selected" </if>>正在销售</option>
+                            <option value="0" <if condition="$goods['sale_state'] eq 0"> selected="selected" </if>>暂停销售</option>
+                        </select>                    
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="name">菜品名称</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="name" name="name" size="50" placeholder="菜品名称" data-validate="required:请填写你的菜品名称" value="{$goods['name']}" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="univalent">菜品单价</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="univalent" name="univalent" size="50" placeholder="菜品单价" data-validate="required:请填写你的菜品单价" value="{$goods['univalent']}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="serial">菜品顺序</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="serial" name="serial" size="50" placeholder="菜品顺序" data-validate="required:请填写你的菜品顺序" value="{$goods['serial']}"/>
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="introduction">菜品简介</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写菜品简介" data-validate="required:请填写菜品简介">{$goods['introduction']}</textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="img">首页图片</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/web/images/goods/{$goods['img']}" style="width:160px;height:160px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="img"/></a>
+                        <div class="input-note">
+                            首页预览图片，分辨率160*160
+                        </div>
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="label">
+                        <label for="banner">横幅图片</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/web/images/goods_banner/{$goods['banner']}" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="banner"/></a>
+                        <div class="input-note">
+                            详情页横幅图片，分辨率260*100
+                        </div>
+                    </div>
+                </div>                
+                <div class="form-button">
+                    <input type="hidden" class="input" id="id" name="id" value="{$goods['id']}" />
+                    <button class="button bg-main" type="submit">提交</button>
+                    <button class="button" onclick="javascript:history.back(-1);" type="button">返回</button>
+                </div>
+            </form>
+        </div>
+<include file="Public:admin_footer"/>

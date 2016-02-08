@@ -1,0 +1,17 @@
+<include file="Public:header"/>
+    <script src="__PUBLIC__/wap/js/shop.js"></script>
+    <!-- 商家列表 -->
+    <ul class="ui-list ui-list-link ui-border-tb">
+        <volist name="shop" id="vo">
+            <li class="ui-border-t shop" shop-id="{$vo['id']}">
+                <div class="ui-list-img">
+                    <span style="background-image:url(__PUBLIC__/web/images/shop/{$vo['img']})"></span>
+                </div>
+                <div class="ui-list-info">
+                    <h4 class="ui-nowrap">{$vo['name']}</h4>
+                    <p class="ui-nowrap">{$vo['introduction']}</p>
+                </div>
+            </li>
+        </volist>
+    </ul>
+<include file="Public:footer"/>

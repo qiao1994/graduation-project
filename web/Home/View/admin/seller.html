@@ -1,0 +1,57 @@
+﻿<include file="Public:admin_header"/>
+		<div class="admin">
+			<div class="panel admin-panel">
+				<div class="panel-head"><strong>用户列表</strong></div>
+				<div class="padding border-bottom">
+				<form action="" method="get">
+					<div class="line">
+	                    <div class="x3">
+	                        <input type="text" class="input find" id="id" name="id" value="{$findData['id']}" placeholder="请输入用户编号">
+	                    </div>
+	                    <div class="x3">
+	                        <input type="text" class="input find" id="username" name="username" value="{$findData['username']}" placeholder="请输入用户名">
+	                    </div>
+	                    <div class="x3">
+	                        <input type="text" class="input find" id="phone" name="phone" value="{$findData['phone']}" placeholder="请输入用户电话">
+	                    </div>
+	                    <div class="x3">
+	                        <input type="text" class="input find" id="qq" name="qq" value="{$findData['qq']}" placeholder="请输入用户QQ">
+	                    </div>
+	                </div>
+	                <div class="line" align="right" style="margin-top:10px;">
+	                    <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
+	                    <input type="submit" class="button button-small border-blue" value="提交查询">
+	                </div>
+	            </form>
+				</div>
+				<table class="table table-hover">
+					<tr>
+						<th width="5%" style="text-align:center;">ID</th>
+						<th width="15%" style="text-align:center;">用户名</th>
+						<th width="10%" style="text-align:center;">余额</th>
+						<th width="15%" style="text-align:center;">电话</th>
+						<th width="10%" style="text-align:center;">QQ</th>
+						<th width="20%" style="text-align:center;">微信</th>
+						<th width="15%" style="text-align:center;">操作</th>
+					</tr>
+					<volist name="user['list']" id="vo">
+						<tr align="center">
+							<td >{$vo['id']}</td>
+							<td>{$vo['username']}</td>
+							<td>￥ {$vo['balance']}  </td>
+							<td>{$vo['phone']}</td>
+							<td>{$vo['qq']}</td>
+							<td>{$vo['wechat']}</td>
+							<td>
+							<a class="button border-blue button-little" href="#" onclick="{if(confirm('确认重置当前用户密码?')){resetPassword({$vo['id']});}return false;}">重置</a> 
+							<a class="button border-green button-little" href="__CONTROLLER__/shop/userId/{$vo['id']}">商家</a> 
+							<a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteUser({$vo['id']});}return false;}">删除</a>
+							</td>
+						</tr>
+					</volist>
+				</table>
+				{$user['page']}						
+			</div>
+			<br />
+		</div>
+<include file="Public:admin_footer"/>

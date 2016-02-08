@@ -1,0 +1,52 @@
+<include file="Public:seller_header"/>
+        <div class="admin">
+            <div class="panel admin-panel">
+                <div class="panel-head"><strong>菜品列表</strong></div>
+                <div class="padding border-bottom">
+                <form action="" method="get">
+                    <div class="line">
+                        <div class="x4">
+                            <input type="text" class="input find" id="id" name="id" value="{$findData['id']}" placeholder="请输入菜品编号">
+                        </div>
+                        <div class="x4">
+                            <input type="text" class="input find" id="name" name="name" value="{$findData['name']}" placeholder="请输入菜品名称">
+                        </div>
+                    </div>
+                    <div class="line" align="right" style="margin-top:10px;">
+                        <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
+                        <input type="submit" class="button button-small border-blue" value="提交查询">
+                    </div>
+                </form>
+                </div>
+                <table class="table table-hover">
+                    <tr>
+                        <th width="5%" style="text-align:center;">ID</th>
+                        <th width="15%" style="text-align:center;">名称</th>
+                        <th width="15%" style="text-align:center;">单价</th>
+                        <th width="15%" style="text-align:center;">销售状态</th>
+                        <th width="15%" style="text-align:center;">顺序</th>
+                        <th width="10%" style="text-align:center;">操作</th>
+                    </tr>
+                    <volist name="goods['list']" id="vo">
+                        <tr align="center">
+                            <td >{$vo['id']}</td>
+                            <td>{$vo['name']}</td>
+                            <td>￥ {$vo['univalent']}</td>
+                            <td>
+                                <if condition="$vo['sale_state'] eq 1">
+                                    正在销售
+                                <else/>
+                                    暂停销售
+                                </if>
+                            </td>
+                            <td>{$vo['serial']}</td>
+                            <td><a class="button border-blue button-little" href="__CONTROLLER__/goodsUpdate/id/{$vo['id']}">编辑</a> <a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteGoods({$vo['id']});}return false;}">删除</a></td>
+                        </tr>
+                    </volist>
+                </table>
+                {$goods['page']}                     
+            </div>
+            <br />
+        </div>
+
+<include file="Public:seller_footer"/>
