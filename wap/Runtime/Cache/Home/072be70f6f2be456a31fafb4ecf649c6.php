@@ -20,7 +20,7 @@
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
                 <li data-href="index.html" class="ui-border-r"><a href="/Home/Index"><i class="ui-icon-home"></i></a></li>
-                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/shop"><i class="ui-icon-hall"></i></a></li>
+                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/cart"><i class="ui-icon-cart"></i></a></li>
                 <li data-href="user.html"><a href="/Home/Index/user"><i class="ui-icon-personal"></i></a></li>
             </ul>
         </footer>
@@ -85,7 +85,7 @@
                         <div class="ui-grid-trisect-img tj-img">
                             <span style="background-image:url(/Public/web/images/goods/<?php echo ($vo['img']); ?>)"></span>
                         </div>
-                        <div>
+                        <div style="margin-left:10px;">
                             <h4 class="tj-name ui-nowrap-multi"><?php echo ($vo['name']); ?></h4>
                         </div>
                     </div>

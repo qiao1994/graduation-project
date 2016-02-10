@@ -104,8 +104,16 @@
                         <label for="introduction">菜品简介</label>
                     </div>
                     <div class="field">
-                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写菜品简介" data-validate="required:请填写菜品简介"></textarea>
-                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                        <input type="text" class="input" id="introduction" name="introduction" size="50" placeholder="菜品简介" data-validate="required:请填写你的菜品简介"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="details">菜品详情</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="details" name="details" cols="50" placeholder="请填写菜品详情" data-validate="required:请填写菜品详情"></textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('details');</script>
                     </div>
                 </div>
                 <div class="form-group">

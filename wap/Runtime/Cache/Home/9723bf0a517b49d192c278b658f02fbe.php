@@ -28,16 +28,6 @@
     <input type="hidden" id="controller" value="/Home/Index">
 
             <!-- 个人中心 -->
-            <ul class="ui-list ui-border-tb">
-                <li>
-                    <div class="ui-avatar">
-                        <span style="background-image:url(/Public/<?php echo ($user['avatar']); ?>)"></span>
-                    </div>
-                    <div class="ui-list-info ui-border-t" style="margin-left:36px">
-                        <h4 class="ui-nowrap"><?php echo ($user['nickname']); ?></h4>
-                    </div>
-                </li>
-            </ul>
             <div class="ui-form ui-border-t">
                 <form action="#">
                     <div class="ui-form-item ui-form-item-show ui-border-b">
@@ -52,7 +42,6 @@
                         <label for="#">余额</label>
                         <input type="text" value="<?php echo ($user['balance']); ?>" readonly>
                     </div>
-
                     <div class="ui-form-item ui-form-item-r ui-border-b">
                         <input type="text" placeholder="请输入金额">
                         <button type="button" class="ui-border-l">充值</button>

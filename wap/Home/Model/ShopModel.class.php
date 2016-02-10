@@ -16,7 +16,7 @@ class ShopModel extends Model {
     * @return array 所有商家
     */
     public function getAllShop() {
-        $shop = $this->order('serial')->select();
+        $shop = $this->where(['state'=>1])->order('serial')->select();
         return $shop;
     }
 

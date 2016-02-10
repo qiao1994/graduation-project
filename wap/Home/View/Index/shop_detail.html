@@ -1,9 +1,9 @@
 <include file="Public:header"/>
     <!-- 商家详情 -->
     <section class="ui-placehold-img">
-        <span style="background-image:url(__PUBLIC__/web/images/shop/{$shop['img']})"></span>
+        <span style="background-image:url(__PUBLIC__/web/images/shop_banner/{$shop['banner']})"></span>
     </section>
-    <ul class="ui-list ui-list-pure ui-border-tb">
+    <ul class="ui-list-pure ui-border-tb">
         <li class="ui-border-t"> 
             <ul class="ui-row ui-whitespace">
                 <i class="ui-icon-pin" style="display:inline;"></i>{$shop['address']}
@@ -20,30 +20,28 @@
                 {$shop['introduction']}
             </ul>
         </li>
-
         <!-- 推荐菜品 -->
-        <li class="ui-border-t"> 
+        <li class="ui-border-t ui-arrowlink"> 
             <ul class="ui-row ui-whitespace">
                 <a href="__CONTROLLER__/goods/shopId/{$shop['id']}">
-                    <h2 class="ui-arrowlink">推荐菜品</h2>
+                    <h2>推荐菜品</h2>
                 </a>
             </ul>
         </li>
-        <li class="ui-border-t"> 
-            <ul class="ui-list ui-list-link ui-border-tb ui-whitespace">
-                <volist name="goods" id="vo">
-                    <li class="ui-border-t goods " goods-id="{$vo['id']}">
-                        <div class="ui-list-img">
-                            <span style="background-image:url(__PUBLIC__/web/images/goods/{$vo['img']})"></span>
-                        </div>
-                        <div class="ui-list-info">
-                            <h4 class="ui-nowrap">{$vo['name']}</h4>
-                            <p class="ui-nowrap">{$vo['introduction']}</p>
-                        </div>
-                    </li>
-                </volist>
-            </ul>
-        </li>
+        <ul class="ui-list ui-list-link ui-border-tb" style="background-color: #f8f8f8;">
+            <volist name="goods" id="vo" offset="0" legth="3">
+                <li class="ui-border-t goods" goods-id="{$vo['id']}" style="margin-left: 0px;padding-left: 15px;">
+                    <div class="ui-list-img">
+                        <span style="background-image:url(__PUBLIC__/web/images/goods/{$vo['img']})"></span>
+                    </div>
+                    <div class="ui-list-info">
+                        <h4 class="ui-nowrap">{$vo['name']}</h4>
+                        <p class="ui-nowrap">{$vo['introduction']}</p>
+                    </div>
+                </li>
+            </volist>
+        </ul>
+
         <!-- 推荐菜品结束 -->
     </ul>
 <include file="Public:footer"/>

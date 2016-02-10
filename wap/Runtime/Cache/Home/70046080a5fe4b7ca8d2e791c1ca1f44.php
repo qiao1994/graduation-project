@@ -27,19 +27,27 @@
         <section class="ui-container">
     <input type="hidden" id="controller" value="/Home/Index">
 
-    <script src="/Public/wap/js/goods.js"></script>
-    <!-- 菜品列表 -->
-    <ul class="ui-list ui-list-link ui-border-tb">
-        <?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="ui-border-t goods" goods-id="<?php echo ($vo['id']); ?>">
-                <div class="ui-list-img">
-                    <span style="background-image:url(/Public/web/images/goods/<?php echo ($vo['img']); ?>)"></span>
-                </div>
-                <div class="ui-list-info">
-                    <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
-                    <p class="ui-nowrap"><?php echo ($vo['details']); ?></p>
-                </div>
-            </li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+<header class="ui-header ui-header-stable ui-border-b">
+    <i class="ui-icon-return" onclick="history.back()"></i><h1>layout</h1><button class="ui-btn">回首页</button>
+</header>
+<footer class="ui-footer ui-footer-stable ui-border-t">
+    <ul class="ui-tiled">
+        <li><div>菜单</div><i>1</i></li>
+        <li><div>菜单</div><i>2</i></li>
+        <li><div>菜单</div><i>3</i></li>
     </ul>
+</footer>
+<section class="ui-container ui-center">
+    内容
+</section>
+         
+        
+
+
+
+
+
         </section>
     </body>
 </html>

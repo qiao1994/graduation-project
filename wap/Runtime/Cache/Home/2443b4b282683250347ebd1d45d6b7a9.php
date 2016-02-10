@@ -20,7 +20,7 @@
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
                 <li data-href="index.html" class="ui-border-r"><a href="/Home/Index"><i class="ui-icon-home"></i></a></li>
-                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/shop"><i class="ui-icon-hall"></i></a></li>
+                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/cart"><i class="ui-icon-cart"></i></a></li>
                 <li data-href="user.html"><a href="/Home/Index/user"><i class="ui-icon-personal"></i></a></li>
             </ul>
         </footer>
@@ -37,14 +37,16 @@
     </section>
     <!-- 商品banner图结束 -->
 
-    <ul class="ui-list ui-list-pure ui-border-tb">
+    <ul class="ui-list-pure ui-border-tb">
         <!-- 价格+购买 -->
         <li class="ui-border-t"> 
             <ul class="ui-row ui-whitespace">
-                <li class="ui-col ui-col-50" style="text-align:center;">
-                    现在购买只需<span style="font-size:25px;color:orange;"><?php echo ($goods['univalent']); ?></span> 元
+                <li class="ui-col ui-col-75" style="text-align:center;">
+                    <i class="ui-icon-emo" style="display:inline;"></i>
+                    现在购买只需<span style="font-size:20px;color:orange;"><?php echo ($goods['univalent']); ?></span> 元
+                    
                 </li>
-                <li class="ui-col ui-col-50 buy-li" style="text-align:right;" goods-id="<?php echo ($goods['id']); ?>">
+                <li class="ui-col ui-col-25 buy-li ui-border-l" style="text-align:center;" goods-id="<?php echo ($goods['id']); ?>" >
                     <i class="ui-icon-cart" style="display:inline;"></i> 购买
                 </li>
             </ul>
@@ -56,7 +58,7 @@
             <ul class="ui-row ui-whitespace">
                 <a href="/Home/Index/shop/id/<?php echo ($shop['id']); ?>">
                     <div class="ui-list-info">
-                        <h4 class="ui-nowrap"><?php echo ($shop['name']); ?></h4>
+                        <h1 class="ui-nowrap"><?php echo ($shop['name']); ?></h1>
                         <p class="ui-nowrap"><?php echo ($shop['introduction']); ?></p>
                     </div>
                 </a>
@@ -68,16 +70,16 @@
         <li class="ui-border-t"> 
             <ul class="ui-row ui-whitespace">
                 <h1>菜品详情</h1>
-                <p><?php echo ($goods['introduction']); ?></p>
+                <p><?php echo ($goods['details']); ?></p>
             </ul>
         </li>
         <!-- 菜品详情结束 -->
 
         <!-- 菜品评价 -->
-        <li class="ui-border-t"> 
+        <li class="ui-border-t ui-arrowlink"> 
             <ul class="ui-row ui-whitespace">
                 <a href="/Home/Index/goods/shopId/<?php echo ($shop['id']); ?>">
-                    <h2 class="ui-arrowlink">菜品评价</h2>
+                    <h2>菜品评价</h2>
                 </a>
             </ul>
         </li>

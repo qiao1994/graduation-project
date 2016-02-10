@@ -18,10 +18,10 @@ class IndexController extends Controller {
         $this->assign('header', ['headerFlag'=>false]);
         // 推荐店铺
         $this->assign('recommendShop', D('Shop')->getRecommendShop());
-        $this->assign('shopCount', D('Shop')->count());
+        $this->assign('shopCount', D('Shop')->where(['state'=>1])->count());
         // 推荐菜品
         $this->assign('recommendGoods', D('Goods')->getRecommendGoods());
-        $this->assign('goodsCount', D('Goods')->count());
+        $this->assign('goodsCount', D('Goods')->where(['state'=>1, 'sale_state'=>1])->count());
         // 展示首页
         $this->display('index');
     }
@@ -60,6 +60,7 @@ class IndexController extends Controller {
             $this->assign('header', ['headerFlag'=>true, 'headerName'=>$goods['name']]);
             $this->assign('goods', $goods);
             //当前商品的商家信息
+            $shop = D('Shop')->getShopByGoodsId($id);
             $this->assign('shop', D('Shop')->getShopByGoodsId($id));
             //当前商品的3个评价
             $this->assign('comment', D('GoodsComment')->getGoodsCommentByGoodsId($id));
@@ -146,6 +147,7 @@ class IndexController extends Controller {
     * @param intger 菜品id
     */
     public function buy($id) {
+        /*
         //判断是否登录
         if (!D('user')->userIfLogin()) {
             $this->redirect('Index/user');
@@ -162,6 +164,22 @@ class IndexController extends Controller {
         $goods = D('goods')->getById($id);
         $this->assign('goods', $goods);
         $this->display('buy');
+        */
+    }
+
+    /**
+    * 购物车页面
+    */
+    public function cart() {
+        $this->assign('header', ['headerFlag'=>true, 'headerName'=>'购物车']);
+        $this->display('cart');
+    }
+
+    /**
+    * 测试页面
+    */ 
+    public function test() {
+        $this->display('test');
     }
 
     /**

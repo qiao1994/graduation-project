@@ -16,7 +16,7 @@ class GoodsModel extends Model {
     * @return array 商品
     */
     public function getGoodsByShopId($shopId) {
-        $goods = $this->where(['shop_id'=>$shopId])->order('serial')->select();
+        $goods = $this->where(['shop_id'=>$shopId, 'state'=>1])->order('serial')->select();
         return $goods;
     }
 
@@ -25,7 +25,7 @@ class GoodsModel extends Model {
     * @return array 所有商品
     */
     public function getAllGoods() {
-        $goods = $this->order('serial')->select();
+        $goods = $this->where(['state'=>1])->order('serial')->select();
         return $goods;
     }
 }

@@ -20,7 +20,7 @@
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
                 <li data-href="index.html" class="ui-border-r"><a href="/Home/Index"><i class="ui-icon-home"></i></a></li>
-                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/shop"><i class="ui-icon-hall"></i></a></li>
+                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/cart"><i class="ui-icon-cart"></i></a></li>
                 <li data-href="user.html"><a href="/Home/Index/user"><i class="ui-icon-personal"></i></a></li>
             </ul>
         </footer>
@@ -34,13 +34,12 @@
                 <div class="ui-list-img">
                     <span style="background-image:url(/Public/web/images/shop/<?php echo ($vo['img']); ?>)"></span>
                 </div>
-                <div class="ui-list-info">
+                <div class="ui-list-info ui-nowrap">
                     <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
                     <p class="ui-nowrap"><?php echo ($vo['introduction']); ?></p>
                 </div>
             </li><?php endforeach; endif; else: echo "" ;endif; ?>
     </ul>
-    <input type="hidden" id="controller" value="/Home/Index">
         </section>
     </body>
 </html>

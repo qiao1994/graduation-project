@@ -20,7 +20,7 @@
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
                 <li data-href="index.html" class="ui-border-r"><a href="/Home/Index"><i class="ui-icon-home"></i></a></li>
-                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/shop"><i class="ui-icon-hall"></i></a></li>
+                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/cart"><i class="ui-icon-cart"></i></a></li>
                 <li data-href="user.html"><a href="/Home/Index/user"><i class="ui-icon-personal"></i></a></li>
             </ul>
         </footer>
@@ -29,9 +29,9 @@
 
     <!-- 商家详情 -->
     <section class="ui-placehold-img">
-        <span style="background-image:url(/Public/web/images/shop/<?php echo ($shop['img']); ?>)"></span>
+        <span style="background-image:url(/Public/web/images/shop_banner/<?php echo ($shop['banner']); ?>)"></span>
     </section>
-    <ul class="ui-list ui-list-pure ui-border-tb">
+    <ul class="ui-list-pure ui-border-tb">
         <li class="ui-border-t"> 
             <ul class="ui-row ui-whitespace">
                 <i class="ui-icon-pin" style="display:inline;"></i><?php echo ($shop['address']); ?>
@@ -48,28 +48,26 @@
                 <?php echo ($shop['introduction']); ?>
             </ul>
         </li>
-
         <!-- 推荐菜品 -->
-        <li class="ui-border-t"> 
+        <li class="ui-border-t ui-arrowlink"> 
             <ul class="ui-row ui-whitespace">
                 <a href="/Home/Index/goods/shopId/<?php echo ($shop['id']); ?>">
-                    <h2 class="ui-arrowlink">推荐菜品</h2>
+                    <h2>推荐菜品</h2>
                 </a>
             </ul>
         </li>
-        <li class="ui-border-t"> 
-            <ul class="ui-list ui-list-link ui-border-tb ui-whitespace">
-                <?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="ui-border-t goods " goods-id="<?php echo ($vo['id']); ?>">
-                        <div class="ui-list-img">
-                            <span style="background-image:url(/Public/web/images/goods/<?php echo ($vo['img']); ?>)"></span>
-                        </div>
-                        <div class="ui-list-info">
-                            <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
-                            <p class="ui-nowrap"><?php echo ($vo['introduction']); ?></p>
-                        </div>
-                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
-            </ul>
-        </li>
+        <ul class="ui-list ui-list-link ui-border-tb" style="background-color: #f8f8f8;">
+            <?php if(is_array($goods)): $i = 0; $__LIST__ = array_slice($goods,0,null,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="ui-border-t goods" goods-id="<?php echo ($vo['id']); ?>" style="margin-left: 0px;padding-left: 15px;">
+                    <div class="ui-list-img">
+                        <span style="background-image:url(/Public/web/images/goods/<?php echo ($vo['img']); ?>)"></span>
+                    </div>
+                    <div class="ui-list-info">
+                        <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
+                        <p class="ui-nowrap"><?php echo ($vo['introduction']); ?></p>
+                    </div>
+                </li><?php endforeach; endif; else: echo "" ;endif; ?>
+        </ul>
+
         <!-- 推荐菜品结束 -->
     </ul>
         </section>
