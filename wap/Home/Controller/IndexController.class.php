@@ -147,24 +147,25 @@ class IndexController extends Controller {
     * @param intger 菜品id
     */
     public function buy($id) {
-        /*
         //判断是否登录
         if (!D('user')->userIfLogin()) {
             $this->redirect('Index/user');
         }
         if (IS_POST) {
             //处理订单
-            if (D('Order')->buy(I('post.'))){
+            $orderBuyRet = D('Order')->buy(I('post.'));
+            if ($orderBuyRet['ret']){
                 //购买成功
+                echo '<script>alert("购买成功！");location.href="'.U('Index/Order').'";</script>';
             } else {
                 // 购买失败
+                echo '<script>alert("'.$orderBuyRet['msg'].'");location.reload();</script>';
             }
         }
         $this->assign('header', ['headerFlag'=>true, 'headerName'=>'购买']);
         $goods = D('goods')->getById($id);
         $this->assign('goods', $goods);
         $this->display('buy');
-        */
     }
 
     /**
@@ -172,7 +173,13 @@ class IndexController extends Controller {
     */
     public function cart() {
         $this->assign('header', ['headerFlag'=>true, 'headerName'=>'购物车']);
-        $this->display('cart');
+        if (!D('user')->userIfLogin()) {
+            echo '<script>alert("请先登录！");location.href="'.U('Index/User').'";</script>';
+            return false;
+        } else {
+            $this->display('cart');
+        }
+
     }
 
     /**

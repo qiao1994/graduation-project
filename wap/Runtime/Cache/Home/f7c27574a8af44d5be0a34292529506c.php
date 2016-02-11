@@ -27,19 +27,84 @@
         <section class="ui-container">
     <input type="hidden" id="controller" value="/Home/Index">
 
-    <script src="/Public/wap/js/goods.js"></script>
-    <!-- 菜品列表 -->
-    <ul class="ui-list ui-list-link ui-border-tb">
-        <?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="ui-border-t goods" goods-id="<?php echo ($vo['id']); ?>">
-                <div class="ui-list-img">
-                    <span style="background-image:url(/Public/web/images/goods/<?php echo ($vo['img']); ?>)"></span>
+    <script src="/Public/wap/js/cart.js"></script>
+
+    <style type="text/css">
+    .cart-title {
+        font-weight: bolder;
+    }
+    .cart-buy-price {
+        font-size: xx-large;
+        text-align: right;
+        margin: 0px 15px;
+    }
+    .cart-buy-price label {
+        color: orange;
+    }
+    .cart-remark {
+        height: 100px;
+
+    }
+    .cart-remark textarea {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+    <!-- 购物车 -->
+    <div class="ui-border-t">
+        <ul class="ui-list ui-list-text ui-list-checkbox">
+            <li class="ui-border-t cart-list">
+                <label class="ui-checkbox">
+                    <input type="checkbox">
+                </label>
+                <ul class="cart-title ui-tiled">
+                    <li class="cart-item">菜品名称</li>
+                    <li class="cart-item">单价</li>
+                    <li class="cart-item">数量</li>
+                    <li class="cart-item">总价</li>
+                </ul>
+            </li>
+            <li class="ui-border-t cart-list">
+                <label class="ui-checkbox">
+                    <input type="checkbox">
+                </label>
+                <ul class="ui-tiled cart-list">
+                    <li>菜品名称</li>
+                    <li>￥28.88</li>
+                    <li>
+                        <div class="ui-select">
+                            <select>
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>￥87.89</li>
+                </ul>
+            </li>
+        </ul>
+        <form action="" method="post">
+            <div class="cart-buy">                    
+                <div class="cart-buy-price">
+                    总价 <label>￥</label> <label id="price">88.88</label>
                 </div>
-                <div class="ui-list-info">
-                    <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
-                    <p class="ui-nowrap"><?php echo ($vo['details']); ?></p>
+                <div class="ui-form-item-textarea cart-remark">
+                    <textarea class="ui-border-radius" name="remark" id="remark" placeholder="请输入备注"></textarea>
                 </div>
-            </li><?php endforeach; endif; else: echo "" ;endif; ?>
-    </ul>
+                <input type="text" id="goods" name="goods"/>
+                <input type="text" id="number" name="number"/>
+                <button type="submit" class="ui-btn-lg ui-btn-primary">购买</button>
+            </div>
+        </form>
+    </div>
         </section>
     </body>
 </html>

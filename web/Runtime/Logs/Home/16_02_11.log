@@ -1,0 +1,315 @@
+[ 2016-02-11T10:49:03+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002572s ]
+
+[ 2016-02-11T10:56:19+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2016-02-11T10:56:42+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-02-11T11:00:36+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-02-11T11:07:31+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-02-11T12:03:58+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-02-11T12:29:30+08:00 ] 127.0.0.1 /Home/Admin/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+
+[ 2016-02-11T12:29:30+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-02-11T12:29:31+08:00 ] 127.0.0.1 /Home/Admin/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+
+[ 2016-02-11T12:29:31+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-02-11T12:47:09+08:00 ] 192.168.1.105 /Home/Seller/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 72 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+

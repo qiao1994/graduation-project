@@ -1,51 +1,51 @@
 <include file="Public:header"/>
     <script src="__PUBLIC__/wap/js/goods.js"></script>
-            <!-- 购买 -->
-            <div class="ui-form ui-border-t">
-                <form method="post" action="">
-                    <input name="id" id="id" type="hidden" value="{$goods['id']}" />
-                    <input id="univalent" type="hidden" value="{$goods['univalent']}" />
-                    <div class="ui-form-item ui-form-item-show ui-border-b">
-                        <label for="#">菜品名称</label>
-                        <input type="text" value="{$goods['name']}" readonly>
-                    </div>
-                    <div class="ui-form-item ui-form-item-show ui-border-b">
-                        <label for="#">单价</label>
-                        <input type="text"  value="￥ {$goods['univalent']}" readonly>
-                    </div>
-                    <div class="ui-form-item ui-border-b">
-                        <label>购买数量</label>
-                        <div class="ui-select">
-                            <select id="number" name="number" class="buy-number">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="ui-form-item ui-form-item-show ui-border-b">
-                        <label for="#">总金额</label>
-                        <input type="text" id="amount" value="￥ {$goods['univalent']}" readonly>
-                    </div>
-                    <div class="ui-form-item ui-form-item-show ui-border-b">
-                        <label for="#">备注</label>
-                        <input type="text" id="remark" name="remark">
-                    </div>
-                    <div class="ui-btn-group" style="margin-top:20px">
-                        <button class="ui-btn-lg ui-btn-primary" type="submit">
-                            提交
-                        </button>
-                        <button class="ui-btn-lg" type="button" onclick="javascript:history.go(-1);" >
-                            返回
-                        </button>
-                    </div>
-                </form>
+    <!-- 购买 -->
+    <div class="ui-form ui-border-t">
+        <form method="post" action="">
+            <input name="id" id="id" type="hidden" value="{$goods['id']}" />
+            <input id="univalent" type="hidden" value="{$goods['univalent']}" />
+            <div class="ui-form-item ui-form-item-show ui-border-b">
+                <label for="#">菜品名称</label>
+                <input type="text" value="{$goods['name']}" readonly>
             </div>
+            <div class="ui-form-item ui-form-item-show ui-border-b">
+                <label for="#">单价</label>
+                <input type="text"  value="￥ {$goods['univalent']}" readonly>
+            </div>
+            <div class="ui-form-item ui-border-b">
+                <label>购买数量</label>
+                <div class="ui-select">
+                    <select id="number" name="number" class="buy-number">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ui-form-item ui-form-item-show ui-border-b">
+                <label for="#">总金额</label>
+                <input type="text" id="amount" value="￥ {$goods['univalent']}" readonly>
+            </div>
+            <div class="ui-form-item ui-form-item-show ui-border-b">
+                <label for="#">备注</label>
+                <input type="text" id="remark" name="remark">
+            </div>
+            <div class="ui-btn-group" style="margin-top:20px">
+                <button class="ui-btn-lg ui-btn-primary" type="submit">
+                    提交
+                </button>
+                <button class="ui-btn-lg" type="button" onclick="javascript:history.go(-1);" >
+                    返回
+                </button>
+            </div>
+        </form>
+    </div>
 <include file="Public:footer"/>
