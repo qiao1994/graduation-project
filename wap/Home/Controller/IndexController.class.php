@@ -155,10 +155,6 @@ class IndexController extends Controller {
     * @param intger 菜品id
     */
     public function buy($id) {
-        //判断是否登录
-        if (!D('user')->userIfLogin()) {
-            $this->redirect('Index/user');
-        }
         if (IS_POST) {
             //处理订单
             $orderBuyRet = D('Order')->buy(I('post.'));

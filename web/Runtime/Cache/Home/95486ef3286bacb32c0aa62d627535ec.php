@@ -49,7 +49,7 @@
                                 <li class="<?php echo ($header['goods_create']); ?>"><a href="/Home/Seller/goodsCreate">新增菜品</a></li>
                             </ul>   
                         </li>
-                        <li><a href="#" class="icon-user"> 会员</a></li>
+                        <li><a href="#" class="icon-bars"> 订单</a></li>
                         <li><a href="#" class="icon-file"> 文件</a></li>
                         <li><a href="#" class="icon-th-list"> 栏目</a></li>
                     </ul>

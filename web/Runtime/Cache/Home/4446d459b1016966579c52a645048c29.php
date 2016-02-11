@@ -49,7 +49,13 @@
                                 <li class="<?php echo ($header['goods_create']); ?>"><a href="/Home/Seller/goodsCreate">新增菜品</a></li>
                             </ul>   
                         </li>
-                        <li><a href="#" class="icon-user"> 会员</a></li>
+                        <li class="<?php echo ($header['order']); ?>">
+                            <a href="/Home/Seller/ORDER" class="icon-bars"> 订单</a>
+                            <ul>
+                                <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Seller/order">订单列表</a></li>
+                            </ul> 
+                        </li>
+
                         <li><a href="#" class="icon-file"> 文件</a></li>
                         <li><a href="#" class="icon-th-list"> 栏目</a></li>
                     </ul>
@@ -128,7 +134,6 @@
                         <script type="text/javascript">var editor = UE.getEditor('details');</script>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <div class="label">
                         <label for="img">首页图片</label>

@@ -59,7 +59,7 @@ class GoodsModel extends Model {
                 break;
             }
         }
-        return $goods = $this->where([$findKey=>$findWord, 'type'=>$type])->select();
+        return $goods = $this->where([$findKey=>$findWord])->select();
     }
 
 
