@@ -59,7 +59,13 @@
                             </ul>
 
                         </li>
-                        <li><a href="#" class="icon-shopping-cart"> 订单</a></li>
+                        <li class="<?php echo ($header['order']); ?>">
+                            <a href="/Home/Admin/ORDER" class="icon-bars"> 订单</a>
+                            <ul>
+                                <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Admin/order">订单列表</a></li>
+                            </ul> 
+                        </li>
+
                         <li><a href="#" class="icon-user"> 会员</a></li>
                         <li><a href="#" class="icon-file"> 文件</a></li>
                         <li><a href="#" class="icon-th-list"> 栏目</a></li>

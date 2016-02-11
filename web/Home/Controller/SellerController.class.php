@@ -300,6 +300,7 @@ class SellerController extends Controller {
             $this->success('处理成功！', U('Seller/order'));
         }
     }
+    
     /**
     * 注销登录
     */ 

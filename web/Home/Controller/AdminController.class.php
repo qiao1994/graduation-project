@@ -18,7 +18,7 @@ class AdminController extends Controller {
         }
     }
 
-    /*
+    /**
     * 登录页面
     */
     public function index(){
@@ -351,6 +351,53 @@ class AdminController extends Controller {
             }
         }
     }
+    /**
+    * 订单列表
+    * @param intger $id 订单号
+    * @param string $goods_name 商品名称
+    */
+    public function order($id = '', $goods_name = '', $shop_id = '') {
+        $this->assign('header', ['title'=>'订单列表', 'order'=>'active', 'order_order'=>'active','bread1'=>'订单', 'bread2'=>'订单列表', 'url'=>'order', 'icon'=>'icon-bars']);
+        if (($id != '') || ($goods_name!='') || ($shop_id!='')) {
+            //--处理查询
+            $findData = ['id'=>$id, 'goods_name'=>$goods_name, 'shop_id'=>$shop_id];
+            $order['list'] = D('Order')->getOrderByFind($findData);
+            $this->assign('findData', $findData);
+        } else {
+            //分页方式获取当前商家的订单
+            $order = D('Order')->getOrderList();
+        }
+        $this->assign('order', $order);
+        $this->display('order');
+    }
+
+    /**
+    * 处理订单
+    */
+    public function orderHandle() {
+        if (IS_POST) {
+            D('Order')->where(['id'=>I('post.id')])->data(['state'=>I('post.state'), 'processing_time'=>time()])->save();
+            $this->success('处理成功！', U('Admin/order'));
+        }
+    }
+
+    /**
+    * ajax删除订单
+    * @return boolean 删除是否成功
+    */
+    public function ajaxDeleteOrder() {
+        if (IS_POST) {
+            if (D('Order')->delete(I('post.id'))) {
+                echo 0;
+                return true;
+            } else {
+                echo 1;
+                return false;
+            }
+        }
+    }
+
+
 
     /**
     * 注销

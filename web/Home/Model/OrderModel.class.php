@@ -28,6 +28,28 @@ class OrderModel extends Model {
     }
 
     /**
+    * 分页获取订单
+    * @param intger $id  shopid
+    * @return array 菜品
+    */
+    public function getOrderList() {
+        $count = $this->count();// 查询满足要求的总记录数
+        $page = new \Org\Util\AdminPage($count);// 实例化分页类 传入总记录数
+        $show = $page->show();// 分页显示输出
+        // 进行分页数据查询
+        $list = $this->order('purchase_time desc')->limit($page->firstRow.','.$page->listRows)->select();
+        //--补充用户信息
+        foreach ($list as $key => $value) {
+            $list[$key]['user'] = D('user')->getById($value['user_id']);
+        }
+        return array(
+            'list'=>$list, 
+            'page'=>$show,
+        );
+    }
+
+
+    /**
     * 通过关键字查询订单
     * @param array $data 需要查询的关键字
     */

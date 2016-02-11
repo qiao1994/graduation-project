@@ -110,3 +110,24 @@ function deleteGoodsComment(commentId) {
     });
 }
 
+// --删除订单
+function deleteOrder(orderId) {
+    var controller = $('#controller').val();
+    //ajax删除商品
+    $.ajax({
+        url:controller+'/ajaxDeleteOrder',
+        type:'POST',
+        dataType:'text',
+        data:'id='+orderId,
+        success:function(ret) {
+            if (ret == 0) {
+                alert('删除订单成功');
+                location.reload();
+                return true;
+            } else {
+                alert('删除订单失败');
+                return false;
+            }
+        },
+    });
+}
