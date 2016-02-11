@@ -1,10 +1,22 @@
-<style type="text/css">
-.demo-parent {width:400px;height:60px;line-height:30px;background:blue;}
-/*.demo-parent-margin {margin:10px;}*/
-.demo-parent-padding {padding:10px;}
-.demo-parent-border {border:5px solid #FF486B;}
-.demo-child {width:100%;height:30px;background:pink;}
-</style>
-<div class="demo-parent demo-parent-padding">
-<div class='demo-child'></div>
+<include file="Public:header"/>
+<div class="ui-dialog">
+    <div class="ui-dialog-cnt">
+      <header class="ui-dialog-hd ui-border-b">
+                  <h3>新手任务</h3>
+                  <i class="ui-dialog-close" data-role="button"></i>
+              </header>
+        <div class="ui-dialog-bd">
+            <h4>标题标题</h4>
+            <div>开通年费QQ会员即可领取欢乐斗地主感恩节回馈礼包！</div>
+        </div>
+        <div class="ui-dialog-ft">
+            <button type="button" data-role="button">取消</button>
+            <button type="button" data-role="button">开通</button>
+        </div>
+    </div>        
 </div>
+<script class="demo-script">
+$(".ui-dialog").dialog("show");
+</script>
+
+<include file="Public:footer"/>

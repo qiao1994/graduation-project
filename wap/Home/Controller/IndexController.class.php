@@ -7,7 +7,15 @@ class IndexController extends Controller {
     * 初始化控制器
     */
     public function _initialize() {
+        //系统信息
         $this->assign('system', D('System')->getSystem());
+        //--判断登录情况
+        if ((ACTION_NAME == 'buy') || (ACTION_NAME == 'order')) {
+            if (!D('user')->userIfLogin()) {
+                echo '<script>alert("请先登录!");location.href="'.U('Index/User').'";</script>';
+                return false;
+            }
+        }
     }
 
     /**
@@ -169,16 +177,46 @@ class IndexController extends Controller {
     }
 
     /**
+    * 订单
+    * @param intger $id 订单号
+    */
+    public function order($id = 0) {
+        if ($id == 0) {
+            $this->assign('header', ['headerFlag'=>true, 'headerName'=>'我的订单']);
+            //--获取当前用户订单
+            $order = D('order')->getOrderListByUser();
+            $this->assign('order', $order);
+            $this->display('order');
+        } else {
+            $this->assign('header', ['headerFlag'=>true, 'headerName'=>'订单详情']);
+            //--获取当前订单
+            if (!$order = D('order')->getOrderById($id)) {
+                echo '<script>alert("当前订单不存在!");history.back(-1)</script>';
+            }
+            $this->assign('order', $order);
+            $this->display('order_detail');
+        }
+
+    }
+
+    /**
+    * 商品评价提交
+    */
+    public function goodsComment() {
+        if (IS_POST) {
+            $goodsCommentRet = D('GoodsComment')->goodsCommentCreate($_POST);
+            if ($goodsCommentRet['ret']) {
+                echo '<script>alert("评价成功！");location.href="'.U('Index/Order?id='.$_POST['order_id']).'";</script>';
+            } else {
+                echo '<script>alert("'.$orderBuyRet['msg'].'");location.href="'.U('Index/Order?id='.$_POST['order_id']).'";</script>';
+            }
+        }
+    }
+
+    /**
     * 购物车页面
     */
     public function cart() {
-        $this->assign('header', ['headerFlag'=>true, 'headerName'=>'购物车']);
-        if (!D('user')->userIfLogin()) {
-            echo '<script>alert("请先登录！");location.href="'.U('Index/User').'";</script>';
-            return false;
-        } else {
-            $this->display('cart');
-        }
 
     }
 

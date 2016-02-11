@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="/Public/wap/frozenui-1.3.0/css/frozen.css">
         <script src="/Public/wap/frozenui-1.3.0/lib/zepto.min.js"></script>
         <script src="/Public/wap/frozenui-1.3.0/js/frozen.js"></script> 
-        <script src="/Public/wap/js/jquery.min.js"></script>
         <script src="/Public/wap/js/public.js"></script>
 
     </head>
@@ -20,7 +19,7 @@
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
                 <li data-href="index.html" class="ui-border-r"><a href="/Home/Index"><i class="ui-icon-home"></i></a></li>
-                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/cart"><i class="ui-icon-cart"></i></a></li>
+                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Index/shop"><i class="ui-icon-hall"></i></a></li>
                 <li data-href="user.html"><a href="/Home/Index/user"><i class="ui-icon-personal"></i></a></li>
             </ul>
         </footer>

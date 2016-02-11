@@ -1,0 +1,138 @@
+<include file="Public:header"/>
+    <script src="__PUBLIC__/wap/js/order_detail.js"></script>
+    <table class="ui-table ui-border-tb">
+        <tbody>
+            <tr>
+                <td>
+                    订单编号
+                </td>
+                <td>
+                    {$order['id']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    店铺名称
+                </td>
+                <td>
+                    {$order['shop']['name']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    店铺地址
+                </td>
+                <td>
+                    {$order['shop']['address']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    店铺电话
+                </td>
+                <td>
+                    {$order['shop']['tel']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    菜品名称
+                </td>
+                <td>
+                    {$order['goods_name']}
+                </td>
+            </tr>            
+            <tr>
+                <td>
+                    单价
+                </td>
+                <td>
+                    ￥ {$order['univalent']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    数量
+                </td>
+                <td>
+                    {$order['number']} 份
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    总价
+                </td>
+                <td>
+                    ￥ {$order['amount']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    购买时间
+                </td>
+                <td>
+                    <?php echo date('Y-m-d H:i:s', $order['purchase_time']);?>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    处理时间
+                </td>
+                <td>
+                    <?php echo date('Y-m-d H:i:s', $order['processing_time']);?>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    备注
+                </td>
+                <td>
+                    {$order['remark']}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    订单状态
+                </td>
+                <td>
+                    {$order['state']}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="ui-btn-group" style="margin-top: 40px;">
+        <button class="ui-btn-lg ui-btn-primary"
+            <if condition="$order['if_comment']">
+                id="comment-button" >评价
+            <else />
+                disabled >评价
+            </if>
+        </button>
+        <button class="ui-btn-lg" onclick="javascript:history.go(-1);">
+            返回
+        </button>
+    </div>
+    <div class="ui-dialog" id="comment-dialog">
+        <div class="ui-dialog-cnt">
+            <header class="ui-dialog-hd ui-border-b">
+                <h3>评价商品</h3>
+                <i class="ui-dialog-close comment-dialog-close" data-role="button"></i>
+            </header>
+            <form action="__CONTROLLER__/goodsComment" method="post" id="comment-form">
+                <div class="ui-dialog-bd">
+                    <div>
+                        <div class="ui-form-item ui-form-item-textarea ui-border-radius">
+                            <input id="goods_id" name="goods_id" type="hidden" value="{$order['goods_id']}">
+                            <input id="order_id" name="order_id" type="hidden" value="{$order['id']}">
+                            <textarea placeholder="请输入评价内容" id="content" name="content" style="padding-left: 0px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-dialog-ft">
+                    <button type="button" class="comment-dialog-close" data-role="button">取消</button>
+                    <button type="submit" data-role="button">提交</button>
+                </div>
+            </form>
+        </div>        
+    </div>
+<include file="Public:footer"/>

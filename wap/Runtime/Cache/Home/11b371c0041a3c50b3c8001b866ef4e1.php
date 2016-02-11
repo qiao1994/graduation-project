@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="/Public/wap/frozenui-1.3.0/css/frozen.css">
         <script src="/Public/wap/frozenui-1.3.0/lib/zepto.min.js"></script>
         <script src="/Public/wap/frozenui-1.3.0/js/frozen.js"></script> 
-        <script src="/Public/wap/js/jquery.min.js"></script>
         <script src="/Public/wap/js/public.js"></script>
 
     </head>
@@ -27,19 +26,26 @@
         <section class="ui-container">
     <input type="hidden" id="controller" value="/Home/Index">
 
-    <script src="/Public/wap/js/shop.js"></script>
-    <!-- 商家列表 -->
-    <ul class="ui-list ui-list-link ui-border-tb">
-        <?php if(is_array($shop)): $i = 0; $__LIST__ = $shop;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="ui-border-t shop" shop-id="<?php echo ($vo['id']); ?>">
-                <div class="ui-list-img">
-                    <span style="background-image:url(/Public/web/images/shop/<?php echo ($vo['img']); ?>)"></span>
-                </div>
-                <div class="ui-list-info ui-nowrap">
-                    <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
-                    <p class="ui-nowrap"><?php echo ($vo['introduction']); ?></p>
-                </div>
-            </li><?php endforeach; endif; else: echo "" ;endif; ?>
-    </ul>
+    <style type="text/css">
+    .page {
+        float: right;
+        padding-right: 10px;
+    }
+    .page a {
+        padding: 0px 5px;
+    }
+    </style>
+    <table class="ui-table ui-border-tb">
+        <thead>
+            <tr><th>订单号</th><th>菜品名称</th><th>购买时间</th><th>订单状态</th></tr>
+        </thead>
+        <tbody>
+            <?php if(is_array($order['list'])): $i = 0; $__LIST__ = $order['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr><td><?php echo ($vo['id']); ?></td><td><?php echo ($vo['goods_name']); ?></td><td><?php echo date('Y-m-d H:i:s', $vo['purchase_time']); ?></td><td><a href="/Home/Index/order/id/<?php echo ($vo['id']); ?>"><?php echo ($vo['state']); ?></a></td></tr><?php endforeach; endif; else: echo "" ;endif; ?>
+        </tbody>
+    </table>
+    <div class="page">
+        <?php echo ($order['page']); ?>  
+    </div>
         </section>
     </body>
 </html>
