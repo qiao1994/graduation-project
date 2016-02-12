@@ -355,6 +355,7 @@ class AdminController extends Controller {
     * 订单列表
     * @param intger $id 订单号
     * @param string $goods_name 商品名称
+    * @param intget $shop_id 商家编号
     */
     public function order($id = '', $goods_name = '', $shop_id = '') {
         $this->assign('header', ['title'=>'订单列表', 'order'=>'active', 'order_order'=>'active','bread1'=>'订单', 'bread2'=>'订单列表', 'url'=>'order', 'icon'=>'icon-bars']);
