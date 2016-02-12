@@ -31,7 +31,8 @@ class OrderModel extends Model {
             );
         }
         //--修改用户余额
-        if (!D('user')->where(['id'=>$user['id']])->save(['balance'=>$user['balance']-$amount])) {
+        $newBalance = $user['balance']-$amount;
+        if (!D('user')->where(['id'=>$user['id']])->save(['balance'=>$newBalance])) {
             $model->rollback();
         }
         //--创建订单

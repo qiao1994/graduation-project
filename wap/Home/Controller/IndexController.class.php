@@ -73,9 +73,11 @@ class IndexController extends Controller {
             //当前商品的3个评价
             $this->assign('comment', D('GoodsComment')->getGoodsCommentByGoodsId($id));
             $this->display('goods_detail');
-        } else if ($shop_id != 0) {
+        } else if ($shopId != 0) {
             //--某个商家所有商品
-            $this->assign('goods', D('Goods')->getGoodsByShopId($id));
+            $shop = D('Shop')->getById($shopId);
+            $this->assign('header', ['headerFlag'=>true, 'headerName'=>$shop['name']]);
+            $this->assign('goods', D('Goods')->getGoodsByShopId($shopId));
             $this->display('goods');
         } else {
             //--全部商品
@@ -109,7 +111,8 @@ class IndexController extends Controller {
         } else {
             //--已登录
             $this->assign('header', ['headerFlag'=>true, 'headerName'=>'个人中心']);
-            $this->assign('user', session('user'));
+            $user = D('user')->getById(session('user')['id']);
+            $this->assign('user', $user);
             $this->display();
         }
     }

@@ -35,7 +35,7 @@
                 </div>
                 <div class="ui-list-info">
                     <h4 class="ui-nowrap"><?php echo ($vo['name']); ?></h4>
-                    <p class="ui-nowrap"><?php echo ($vo['details']); ?></p>
+                    <p class="ui-nowrap"><?php echo ($vo['introduction']); ?></p>
                 </div>
             </li><?php endforeach; endif; else: echo "" ;endif; ?>
     </ul>

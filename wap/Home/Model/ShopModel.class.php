@@ -24,10 +24,10 @@ class ShopModel extends Model {
     /**
     * 根据商品id获取当前商家信息
     * @param integer $goodsId商品id
-    * @param array 商家新
+    * @param array 商家信息
     */
     public function getShopByGoodsId($goodsId) {
-        $shopId = M('goods')->where(['goods_id'=>$goodsId])->find()['shop_id'];
+        $shopId = D('Goods')->where(['id'=>$goodsId])->find()['shop_id'];
         $shop = $this->getById($shopId);
         return $shop;
     }

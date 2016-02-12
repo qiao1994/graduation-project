@@ -55,9 +55,11 @@
 
     <!-- 推荐商家 -->
     <section class="ui-panel">
-    	<a href="/Home/Index/shop">
-            <h2 class="ui-arrowlink">推荐商家<span class="ui-panel-subtitle"><?php echo ($shopCount); ?>家</span></h2>
-        </a>
+        <ul class="ui-border-tb" style="margin-bottom: 10px;">
+        	<a href="/Home/Index/shop">
+                <h2 class="ui-arrowlink">推荐商家<span class="ui-panel-subtitle"><?php echo ($shopCount); ?>家</span></h2>
+            </a>
+        </ul>
         <ul class="ui-grid-trisect">
             <?php if(is_array($recommendShop)): $i = 0; $__LIST__ = $recommendShop;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="shop" shop-id="<?php echo ($vo['id']); ?>">
                     <div class="ui-border">
@@ -74,10 +76,12 @@
     <!-- 推荐商家结束 -->
 
     <!-- 推荐菜品 -->
-    <section class="ui-panel">   
-        <a href="/Home/Index/goods">
-            <h2 class="ui-arrowlink">推荐菜品<span class="ui-panel-subtitle"><?php echo ($goodsCount); ?>款</span></h2>
-        </a>
+    <section class="ui-panel">  
+        <ul class="ui-border-tb" style="margin-bottom: 10px;">
+            <a href="/Home/Index/goods">
+                <h2 class="ui-arrowlink">推荐菜品<span class="ui-panel-subtitle"><?php echo ($goodsCount); ?>款</span></h2>
+            </a>
+        </ul>
         <ul class="ui-grid-trisect">
             <?php if(is_array($recommendGoods)): $i = 0; $__LIST__ = $recommendGoods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="goods" goods-id="<?php echo ($vo['id']); ?>">
                     <div class="ui-border">

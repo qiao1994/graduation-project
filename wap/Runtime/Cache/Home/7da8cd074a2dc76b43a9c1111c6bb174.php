@@ -43,8 +43,8 @@
         </li>
         <li class="ui-border-t"> 
             <ul class="ui-row ui-whitespace">
-                <h1>商家简介</h1>
-                <?php echo ($shop['introduction']); ?>
+                <h1><b>商家简介</b></h1>
+                <?php echo ($shop['details']); ?>
             </ul>
         </li>
         <!-- 推荐菜品 -->

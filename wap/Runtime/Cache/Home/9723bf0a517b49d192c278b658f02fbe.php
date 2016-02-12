@@ -46,12 +46,11 @@
                 <button type="button" class="ui-border-l">充值</button>
                 <a href="#" class="ui-icon-close"></a>
             </div>
-            <div class="ui-form-item ui-form-item-link ui-border-b">
-                <a href="/Home/Index/order">我的订单</a>
-            </div>
-            <div class="ui-form-item ui-form-item-link ui-border-b">
-                <a href="#">我的投诉</a>
-            </div>
+            <a href="/Home/Index/order">
+                <div class="ui-form-item ui-form-item-link ui-border-b">
+                    我的订单
+                </div>
+            </a>
         </form>
     </div>
     <div class="ui-btn-wrap">

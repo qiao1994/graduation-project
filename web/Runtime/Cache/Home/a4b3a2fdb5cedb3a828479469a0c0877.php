@@ -32,17 +32,18 @@
                         <li class="<?php echo ($header['index']); ?>">
                             <a href="/Home/Admin" class="icon-home"> 开始</a>
                             <ul>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
+                                <li><a href="/Home/Admin/user">用户管理</a></li>
+                                <li><a href="/Home/Admin/shop">商家管理</a></li>
+                                <li><a href="/Home/Admin/goods">菜品管理</a></li>
+                                <li><a href="/Home/Admin/order">订单管理</a></li>
+                                <li><a href="/Home/Admin/order">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">
                             <a href="/Home/Admin/user" class="icon-user"> 用户</a>
                             <ul>
                                 <li class="<?php echo ($header['user_user']); ?>"><a href="/Home/Admin/user">用户列表</a></li>
-                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/seller">商家用户</a></li>
+                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/statistics">商家用户</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['shop']); ?>">
@@ -59,10 +60,18 @@
                             </ul>
 
                         </li>
-                        <li><a href="#" class="icon-shopping-cart"> 订单</a></li>
-                        <li><a href="#" class="icon-user"> 会员</a></li>
-                        <li><a href="#" class="icon-file"> 文件</a></li>
-                        <li><a href="#" class="icon-th-list"> 栏目</a></li>
+                        <li class="<?php echo ($header['order']); ?>">
+                            <a href="/Home/Admin/order" class="icon-bars"> 订单</a>
+                            <ul>
+                                <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Admin/order">订单列表</a></li>
+                            </ul> 
+                        </li>
+                        <li class="<?php echo ($header['statistics']); ?>">
+                            <a href="/Home/Admin/statistics" class="icon-table"> 数据</a>
+                            <ul>
+                                <li class="<?php echo ($header['statistics_statistics']); ?>"><a href="/Home/Admin/statistics">数据统计</a></li>
+                            </ul> 
+                        </li>
                     </ul>
                 </div>
                 <div class="admin-bread">
@@ -138,8 +147,16 @@
                         <label for="introduction">店铺简介</label>
                     </div>
                     <div class="field">
-                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介"><?php echo ($shop['introduction']); ?></textarea>
-                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                        <input type="text" class="input" id="introduction" name="introduction" size="50" placeholder="店铺简介" data-validate="required:请填写你的店铺简介" value="<?php echo ($shop['introduction']); ?>"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="details">详细介绍</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="details" name="details" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介"><?php echo ($shop['details']); ?></textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('details');</script>
                     </div>
                 </div>
                 <div class="form-group">

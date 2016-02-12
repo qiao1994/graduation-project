@@ -43,7 +43,7 @@
                             <a href="/Home/Admin/user" class="icon-user"> 用户</a>
                             <ul>
                                 <li class="<?php echo ($header['user_user']); ?>"><a href="/Home/Admin/user">用户列表</a></li>
-                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/statistics">商家用户</a></li>
+                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/seller">商家用户</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['shop']); ?>">

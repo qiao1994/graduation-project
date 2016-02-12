@@ -30,9 +30,11 @@
 
     <!-- 推荐商家 -->
     <section class="ui-panel">
-    	<a href="__CONTROLLER__/shop">
-            <h2 class="ui-arrowlink">推荐商家<span class="ui-panel-subtitle">{$shopCount}家</span></h2>
-        </a>
+        <ul class="ui-border-tb" style="margin-bottom: 10px;">
+        	<a href="__CONTROLLER__/shop">
+                <h2 class="ui-arrowlink">推荐商家<span class="ui-panel-subtitle">{$shopCount}家</span></h2>
+            </a>
+        </ul>
         <ul class="ui-grid-trisect">
             <volist name="recommendShop" id="vo">
                 <li class="shop" shop-id="{$vo['id']}">
@@ -51,10 +53,12 @@
     <!-- 推荐商家结束 -->
 
     <!-- 推荐菜品 -->
-    <section class="ui-panel">   
-        <a href="__CONTROLLER__/goods">
-            <h2 class="ui-arrowlink">推荐菜品<span class="ui-panel-subtitle">{$goodsCount}款</span></h2>
-        </a>
+    <section class="ui-panel">  
+        <ul class="ui-border-tb" style="margin-bottom: 10px;">
+            <a href="__CONTROLLER__/goods">
+                <h2 class="ui-arrowlink">推荐菜品<span class="ui-panel-subtitle">{$goodsCount}款</span></h2>
+            </a>
+        </ul>
         <ul class="ui-grid-trisect">
             <volist name="recommendGoods" id="vo">
                 <li class="goods" goods-id="{$vo['id']}">

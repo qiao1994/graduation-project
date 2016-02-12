@@ -51,7 +51,7 @@
                             </ul>   
                         </li>
                         <li class="<?php echo ($header['order']); ?>">
-                            <a href="/Home/Seller/ORDER" class="icon-bars"> 订单</a>
+                            <a href="/Home/Seller/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Seller/order">订单列表</a></li>
                             </ul> 
@@ -111,7 +111,9 @@
                                     暂停销售<?php endif; ?>
                             </td>
                             <td><?php echo ($vo['serial']); ?></td>
-                            <td><a class="button border-blue button-little" href="/Home/Seller/goodsUpdate/id/<?php echo ($vo['id']); ?>">编辑</a> <a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteGoods(<?php echo ($vo['id']); ?>);}return false;}">删除</a></td>
+                            <td><a class="button border-blue button-little" href="/Home/Seller/goodsUpdate/id/<?php echo ($vo['id']); ?>">编辑</a> 
+                            <a class="button border-green button-little" href="/Home/Seller/goodsComment/goods_id/<?php echo ($vo['id']); ?>">评价</a> 
+                            <a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteGoods(<?php echo ($vo['id']); ?>);}return false;}">删除</a></td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 </table>
                 <?php echo ($goods['page']); ?>                     

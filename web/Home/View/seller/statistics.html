@@ -17,7 +17,7 @@
                             <option value="0">所有菜品</option>
                             <volist name="goods" id="vo">
                                 <option value="{$vo['id']}" 
-                                <if condition="$vo['id'] eq $statisticsData['goods_id']">
+                                <if condition="$vo['id'] eq $statisticsData['goodsId']">
                                     selected="selected"
                                 </if>
                                 >{$vo['name']}</option>
@@ -33,7 +33,7 @@
             </div>
             <table class="table table-bordered">
                 <tr>
-                    <td>
+                    <td width="50%">
                         开始日期
                     </td>                    
                     <td>
@@ -69,7 +69,12 @@
                         总金额
                     </td>                    
                     <td>
-                        ￥ {$statisticsData['orderAmount']}
+                        ￥ 
+                        <if condition="$statisticsData['orderAmount']" >
+                            {$statisticsData['orderAmount']}
+                        <else/>
+                            0
+                        </if>
                     </td>
                 </tr>
             </table>

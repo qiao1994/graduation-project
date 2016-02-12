@@ -51,7 +51,7 @@
                             </ul>   
                         </li>
                         <li class="<?php echo ($header['order']); ?>">
-                            <a href="/Home/Seller/ORDER" class="icon-bars"> 订单</a>
+                            <a href="/Home/Seller/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Seller/order">订单列表</a></li>
                             </ul> 
@@ -90,7 +90,7 @@
                         <select class="input" id="goods_id" name="goods_id">
                             <option value="0">所有菜品</option>
                             <?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['id']); ?>" 
-                                <?php if($vo['id'] == $statisticsData['goods_id']): ?>selected="selected"<?php endif; ?>
+                                <?php if($vo['id'] == $statisticsData['goodsId']): ?>selected="selected"<?php endif; ?>
                                 ><?php echo ($vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                         </select>
                     </div>
@@ -103,7 +103,7 @@
             </div>
             <table class="table table-bordered">
                 <tr>
-                    <td>
+                    <td width="50%">
                         开始日期
                     </td>                    
                     <td>
@@ -139,7 +139,10 @@
                         总金额
                     </td>                    
                     <td>
-                        ￥ <?php echo ($statisticsData['orderAmount']); ?>
+                        ￥ 
+                        <?php if($statisticsData['orderAmount']): echo ($statisticsData['orderAmount']); ?>
+                        <?php else: ?>
+                            0<?php endif; ?>
                     </td>
                 </tr>
             </table>

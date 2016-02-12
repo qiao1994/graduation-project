@@ -51,7 +51,7 @@
                             </ul>   
                         </li>
                         <li class="<?php echo ($header['order']); ?>">
-                            <a href="/Home/Seller/ORDER" class="icon-bars"> 订单</a>
+                            <a href="/Home/Seller/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Seller/order">订单列表</a></li>
                             </ul> 

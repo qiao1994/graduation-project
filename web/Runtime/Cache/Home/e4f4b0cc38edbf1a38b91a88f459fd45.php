@@ -32,17 +32,18 @@
                         <li class="<?php echo ($header['index']); ?>">
                             <a href="/Home/Admin" class="icon-home"> 开始</a>
                             <ul>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
+                                <li><a href="/Home/Admin/user">用户管理</a></li>
+                                <li><a href="/Home/Admin/shop">商家管理</a></li>
+                                <li><a href="/Home/Admin/goods">菜品管理</a></li>
+                                <li><a href="/Home/Admin/order">订单管理</a></li>
+                                <li><a href="/Home/Admin/order">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">
                             <a href="/Home/Admin/user" class="icon-user"> 用户</a>
                             <ul>
                                 <li class="<?php echo ($header['user_user']); ?>"><a href="/Home/Admin/user">用户列表</a></li>
-                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/seller">商家用户</a></li>
+                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/statistics">商家用户</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['shop']); ?>">
@@ -55,13 +56,22 @@
                             <a href="/Home/Admin/goods" class="icon-shopping-cart"> 菜品</a>
                             <ul>
                                 <li class="<?php echo ($header['goods_goods']); ?>"><a href="/Home/Admin/goods">菜品列表</a></li>
+                                <li class="<?php echo ($header['goods_comment']); ?>"><a href="/Home/Admin/goodsComment">菜品评价</a></li>
                             </ul>
 
                         </li>
-                        <li><a href="#" class="icon-shopping-cart"> 订单</a></li>
-                        <li><a href="#" class="icon-user"> 会员</a></li>
-                        <li><a href="#" class="icon-file"> 文件</a></li>
-                        <li><a href="#" class="icon-th-list"> 栏目</a></li>
+                        <li class="<?php echo ($header['order']); ?>">
+                            <a href="/Home/Admin/order" class="icon-bars"> 订单</a>
+                            <ul>
+                                <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Admin/order">订单列表</a></li>
+                            </ul> 
+                        </li>
+                        <li class="<?php echo ($header['statistics']); ?>">
+                            <a href="/Home/Admin/statistics" class="icon-table"> 数据</a>
+                            <ul>
+                                <li class="<?php echo ($header['statistics_statistics']); ?>"><a href="/Home/Admin/statistics">数据统计</a></li>
+                            </ul> 
+                        </li>
                     </ul>
                 </div>
                 <div class="admin-bread">
@@ -130,14 +140,22 @@
                     <div class="field">
                         <input type="text" class="input" id="serial" name="serial" size="50" placeholder="菜品顺序" data-validate="required:请填写你的菜品顺序" value="<?php echo ($goods['serial']); ?>"/>
                     </div>
-                </div>                
+                </div> 
                 <div class="form-group">
                     <div class="label">
                         <label for="introduction">菜品简介</label>
                     </div>
                     <div class="field">
-                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写菜品简介" data-validate="required:请填写菜品简介"><?php echo ($goods['introduction']); ?></textarea>
-                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                        <input type="text" class="input" id="introduction" name="introduction" size="50" placeholder="菜品简介" data-validate="required:请填写你的菜品简介" value="<?php echo ($goods['introduction']); ?>"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="details">菜品详情</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="details" name="details" cols="50" placeholder="请填写菜品详情" data-validate="required:请填写菜品详情"><?php echo ($goods['details']); ?></textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('details');</script>
                     </div>
                 </div>
                 <div class="form-group">

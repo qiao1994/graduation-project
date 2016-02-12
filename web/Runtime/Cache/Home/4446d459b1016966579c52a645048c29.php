@@ -51,14 +51,18 @@
                             </ul>   
                         </li>
                         <li class="<?php echo ($header['order']); ?>">
-                            <a href="/Home/Seller/ORDER" class="icon-bars"> 订单</a>
+                            <a href="/Home/Seller/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Seller/order">订单列表</a></li>
                             </ul> 
                         </li>
 
-                        <li><a href="#" class="icon-file"> 文件</a></li>
-                        <li><a href="#" class="icon-th-list"> 栏目</a></li>
+                        <li class="<?php echo ($header['statistics']); ?>">
+                            <a href="/Home/Seller/statistics" class="icon-table"> 数据</a>
+                            <ul>
+                                <li class="<?php echo ($header['statistics_statistics']); ?>"><a href="/Home/Seller/statistics">数据统计</a></li>
+                            </ul> 
+                        </li>
                     </ul>
                 </div>
                 <div class="admin-bread">

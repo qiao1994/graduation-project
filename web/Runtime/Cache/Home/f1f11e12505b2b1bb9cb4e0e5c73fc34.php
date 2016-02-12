@@ -51,7 +51,7 @@
                             </ul>   
                         </li>
                         <li class="<?php echo ($header['order']); ?>">
-                            <a href="/Home/Seller/ORDER" class="icon-bars"> 订单</a>
+                            <a href="/Home/Seller/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Seller/order">订单列表</a></li>
                             </ul> 
@@ -117,8 +117,16 @@
                         <label for="introduction">店铺简介</label>
                     </div>
                     <div class="field">
-                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介"><?php echo ($shop['introduction']); ?></textarea>
-                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                        <input type="text" class="input" id="introduction" name="introduction" size="50" placeholder="店铺简介" data-validate="required:请填写你的店铺简介" value="<?php echo ($shop['introduction']); ?>"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="details">详细介绍</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="details" name="details" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介"><?php echo ($shop['details']); ?></textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('details');</script>
                     </div>
                 </div>
                 <div class="form-group">

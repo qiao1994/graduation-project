@@ -83,7 +83,11 @@ class GoodsCommentModel extends Model {
         if ($user_id == 0) {
             $user_id = session('user')['id'];
         }
-        //--根据状态判定能否评价，后续补充
+        //--根据状态判定能否评价
+        $order = D('Order')->getById($order_id);
+        if ($order['state'] != '订单完成') {
+            return false;
+        }
 
         $goodsComment = $this->where(['order_id'=>$order_id, 'user_id'=>$user_id])->find();
         if ($goodsComment) {

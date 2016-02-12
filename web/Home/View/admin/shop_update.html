@@ -64,8 +64,16 @@
                         <label for="introduction">店铺简介</label>
                     </div>
                     <div class="field">
-                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介">{$shop['introduction']}</textarea>
-                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
+                        <input type="text" class="input" id="introduction" name="introduction" size="50" placeholder="店铺简介" data-validate="required:请填写你的店铺简介" value="{$shop['introduction']}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label">
+                        <label for="details">详细介绍</label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="5" id="details" name="details" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介">{$shop['details']}</textarea>
+                        <script type="text/javascript">var editor = UE.getEditor('details');</script>
                     </div>
                 </div>
                 <div class="form-group">

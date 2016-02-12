@@ -171,7 +171,7 @@
                                 购买时间
                             </td>
                             <td  id="purchase_time">
-                                <?php echo ($vo['purchase_time']); ?>
+                                <?php echo date('Y-m-d H:i:s ', $vo['purchase_time']); ?>
                             </td>
                         </tr>
                         <tr>
