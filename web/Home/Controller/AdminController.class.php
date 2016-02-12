@@ -397,7 +397,25 @@ class AdminController extends Controller {
             }
         }
     }
-
+    /**
+    * 统计数据
+    * @param string $startDate 开始日期
+    * @param string $endDate 结束日期
+    */
+    public function statistics($startDate = '', $endDate = '', $goods_id = 0, $shop_id = 0) {
+        $this->assign('header', ['title'=>'数据统计', 'statistics'=>'active', 'statistics_statistics'=>'active','bread1'=>'数据', 'bread2'=>'数据统计', 'url'=>'statistics', 'icon'=>'icon-table']);
+        //--获取当前商家的所有菜品
+        $goods = D('Goods')->select();
+        $this->assign('goods', $goods);
+        //--获取所有商家
+        $shop = D('Shop')->order('serial')->select();
+        $this->assign('shop', $shop);
+        //--获取统计数据
+        $statisticsData = D('Order')->getStatistics($startDate, $endDate, $goods_id, $shop_id);
+        $this->assign('statisticsData', $statisticsData);
+        $this->display('statistics');
+    }
+    
 
 
     /**

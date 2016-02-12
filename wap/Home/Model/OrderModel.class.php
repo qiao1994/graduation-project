@@ -37,6 +37,7 @@ class OrderModel extends Model {
         //--创建订单
         $order->user_id = session('user')['id'];
         $order->goods_id = $goods['id'];
+        $order->shop_id = D('Goods')->getById($goods['id'])['shop_id'];
         $order->goods_name = $goods['name'];
         $order->univalent = $goods['univalent'];
         $order->number = $data['number'];

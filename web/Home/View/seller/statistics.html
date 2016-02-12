@@ -1,0 +1,79 @@
+<include file="Public:seller_header"/>
+    <script language="javascript" type="text/javascript" src="__PUBLIC__/web/My97DatePicker/WdatePicker.js"></script>
+    <div class="admin">
+        <div class="panel admin-panel">
+            <div class="panel-head"><strong>数据统计</strong></div>
+            <div class="padding border-bottom">
+            <form action="" method="get">
+                <div class="line">
+                    <div class="x4">
+                        <input class="input find" type="text" placeholder="开始日期" onClick="WdatePicker()" id="startDate" name="startDate" value="{$statisticsData['startDate']}" />
+                    </div>
+                    <div class="x4">
+                        <input class="input find" type="text" placeholder="开始日期" onClick="WdatePicker()" id="endDate" name="endDate" value="{$statisticsData['endDate']}" />
+                    </div>
+                    <div class="x4">
+                        <select class="input" id="goods_id" name="goods_id">
+                            <option value="0">所有菜品</option>
+                            <volist name="goods" id="vo">
+                                <option value="{$vo['id']}" 
+                                <if condition="$vo['id'] eq $statisticsData['goods_id']">
+                                    selected="selected"
+                                </if>
+                                >{$vo['name']}</option>
+                            </volist>
+                        </select>
+                    </div>
+                </div>
+                <div class="line" align="right" style="margin-top:10px;">
+                    <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
+                    <input type="submit" class="button button-small border-blue" value="提交查询">
+                </div>
+            </form>
+            </div>
+            <table class="table table-bordered">
+                <tr>
+                    <td>
+                        开始日期
+                    </td>                    
+                    <td>
+                        {$statisticsData['startDate']}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        结束日期
+                    </td>                    
+                    <td>
+                        {$statisticsData['endDate']}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        菜品名称
+                    </td>                    
+                    <td>
+                        {$statisticsData['goodsName']}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        订单数量
+                    </td>                    
+                    <td>
+                        {$statisticsData['orderNumber']}
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        总金额
+                    </td>                    
+                    <td>
+                        ￥ {$statisticsData['orderAmount']}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+    </div>
+<include file="Public:seller_footer"/>

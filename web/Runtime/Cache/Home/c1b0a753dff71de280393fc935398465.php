@@ -73,83 +73,41 @@
                 </div>
             </div>
         </div>
-        <div class="admin">
-            <form method="post" class="form-x" action=""  enctype="multipart/form-data">
-                <div class="form-group">
-                    <div class="label">
-                        <label>店铺审核</label>
-                    </div>
-                    <div class="field" style="padding:7px 0px;">
-                        <label>
-                            <?php if($shop['state'] == 0): ?>未通过 <small>请等待管理员审核</small>
-                            <?php else: ?>
-                                已通过<?php endif; ?>
-                        </label>
-
+    <div class="admin">
+        <div class="panel admin-panel">
+            <div class="panel-head"><strong>菜品评价</strong></div>
+            <div class="padding border-bottom">
+            <form action="" method="get">
+                <div class="line">
+                    <div class="x6">
+                        <input type="text" class="input find" id="goods_id" name="goods_id" value="<?php echo ($findData['goods_id']); ?>" placeholder="请输入菜品编号">
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="label">
-                        <label for="name">店铺名称</label>
-                    </div>
-                    <div class="field">
-                        <input type="text" class="input" id="name" name="name" size="50" placeholder="店铺名称" data-validate="required:请填写你的店铺名称"  value="<?php echo ($shop['name']); ?>" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="label">
-                        <label for="address">店铺地址</label>
-                    </div>
-                    <div class="field">
-                        <input type="text" class="input" id="address" name="address" size="50" placeholder="店铺地址" data-validate="required:请填写你的店铺地址" value="<?php echo ($shop['address']); ?>"/>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="label">
-                        <label for="address">店铺电话</label>
-                    </div>
-                    <div class="field">
-                        <input type="text" class="input" id="tel" name="tel" size="50" placeholder="店铺电话" data-validate="required:请填写你的店铺电话,tel:请填写合法的电话或手机" value="<?php echo ($shop['tel']); ?>"/>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="label">
-                        <label for="introduction">店铺简介</label>
-                    </div>
-                    <div class="field">
-                        <textarea rows="5" id="introduction" name="introduction" cols="50" placeholder="请填写店铺简介" data-validate="required:请填写店铺简介"><?php echo ($shop['introduction']); ?></textarea>
-                        <script type="text/javascript">var editor = UE.getEditor('introduction');</script>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="label">
-                        <label for="img">首页图片</label>
-                    </div>
-                    <div class="field">
-                        <img src="/Public/web/images/shop/<?php echo ($shop['img']); ?>" style="width:160px;height:160px;margin-right:10px;" />
-                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="img"/></a>
-                        <div class="input-note">
-                            首页预览图片，分辨率160*160
-                        </div>
-                    </div>
-                </div>                
-                <div class="form-group">
-                    <div class="label">
-                        <label for="banner">横幅图片</label>
-                    </div>
-                    <div class="field">
-                        <img src="/Public/web/images/shop_banner/<?php echo ($shop['banner']); ?>" style="width:260px;height:100px;margin-right:10px;" />
-                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="banner"/></a>
-                        <div class="input-note">
-                            详情页横幅图片，分辨率260*100
-                        </div>
-                    </div>
-                </div>                
-                <div class="form-button">
-                    <input type="hidden" class="input" id="id" name="id" value="<?php echo ($shop['id']); ?>" />
-                    <button class="button bg-main" type="submit">提交</button>
+                <div class="line" align="right" style="margin-top:10px;">
+                    <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
+                    <input type="submit" class="button button-small border-blue" value="提交查询">
                 </div>
             </form>
+            </div>
+            <table class="table table-hover">
+                <tr>
+                    <th width="5%" style="text-align:center;">ID</th>
+                    <th width="30%" style="text-align:center;">菜品</th>
+                    <th width="10%" style="text-align:center;">用户</th>
+                    <th width="40%" style="text-align:center;">评价内容</th>
+                    <th width="15%" style="text-align:center;">评价时间</th>
+                </tr>
+                <?php if(is_array($goodsComment['list'])): $i = 0; $__LIST__ = $goodsComment['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center">
+                        <td ><?php echo ($vo['id']); ?></td>
+                        <td ><?php echo ($vo['goods_name']); ?></td>
+                        <td><?php echo ($vo['username']); ?></td>
+                        <td><?php echo ($vo['content']); ?></td>
+                        <td><?php echo date("Y-m-d H:i:s", $vo['time']); ?></td>
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            </table>
+            <?php echo ($goodsComment['page']); ?>                     
         </div>
+        <br />
+    </div>
     </body>
 </html>

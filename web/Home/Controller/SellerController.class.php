@@ -300,6 +300,44 @@ class SellerController extends Controller {
             $this->success('处理成功！', U('Seller/order'));
         }
     }
+
+    /**
+    * 菜品评价
+    * @param intger 商品id    
+    */
+    public function goodsComment($goods_id = '') {
+        $this->assign('header', ['title'=>'菜品评价', 'goods'=>'active', 'goods_comment'=>'active','bread1'=>'菜品', 'bread2'=>'菜品评价', 'url'=>'goods', 'icon'=>'icon-shopping-cart']);
+        $shop = D('Shop')->getShopByUser();
+        if ($goods_id != '') {
+            //--处理查询
+            $findData = ['goods_id'=>$goods_id, 'shop_id'=>$shop['id']];
+            $goodsComment['list'] = D('GoodsComment')->getGoodsCommentByFind($findData);
+            $this->assign('findData', $findData);
+            $this->assign('goodsComment', $goodsComment);
+        } else {
+            //--分页方式获取当前商家菜品评价
+            $goodsComment = D('GoodsComment')->getGoodsCommentListBySeller();
+        }
+        $this->assign('goodsComment', $goodsComment);
+        $this->display('goods_comment');    
+    }
+
+    /**
+    * 统计数据
+    * @param string $startDate 开始日期
+    * @param string $endDate 结束日期
+    */
+    public function statistics($startDate = '', $endDate = '', $goods_id = 0) {
+        $this->assign('header', ['title'=>'数据统计', 'statistics'=>'active', 'statistics_statistics'=>'active','bread1'=>'数据', 'bread2'=>'数据统计', 'url'=>'statistics', 'icon'=>'icon-table']);
+        //--获取当前商家的所有菜品
+        $shop = D('Shop')->getShopByUser();
+        $goods = D('Goods')->getGoodsByShopId($shop['id']);
+        $this->assign('goods', $goods);
+        //--获取统计数据
+        $statisticsData = D('Order')->getStatistics($startDate, $endDate, $goods_id, $shop['id']);
+        $this->assign('statisticsData', $statisticsData);
+        $this->display('statistics');
+    }
     
     /**
     * 注销登录

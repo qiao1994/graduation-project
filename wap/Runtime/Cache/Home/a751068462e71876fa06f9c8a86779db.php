@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="/Public/wap/frozenui-1.3.0/css/frozen.css">
         <script src="/Public/wap/frozenui-1.3.0/lib/zepto.min.js"></script>
         <script src="/Public/wap/frozenui-1.3.0/js/frozen.js"></script> 
-        <script src="/Public/wap/js/jquery.min.js"></script>
         <script src="/Public/wap/js/public.js"></script>
 
     </head>

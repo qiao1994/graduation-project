@@ -32,17 +32,18 @@
                         <li class="<?php echo ($header['index']); ?>">
                             <a href="/Home/Admin" class="icon-home"> 开始</a>
                             <ul>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
+                                <li><a href="/Home/Admin/user">用户管理</a></li>
+                                <li><a href="/Home/Admin/shop">商家管理</a></li>
+                                <li><a href="/Home/Admin/goods">菜品管理</a></li>
+                                <li><a href="/Home/Admin/order">订单管理</a></li>
+                                <li><a href="/Home/Admin/order">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">
                             <a href="/Home/Admin/user" class="icon-user"> 用户</a>
                             <ul>
                                 <li class="<?php echo ($header['user_user']); ?>"><a href="/Home/Admin/user">用户列表</a></li>
-                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/seller">商家用户</a></li>
+                                <li class="<?php echo ($header['user_seller']); ?>"><a href="/Home/Admin/statistics">商家用户</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['shop']); ?>">
@@ -60,15 +61,17 @@
 
                         </li>
                         <li class="<?php echo ($header['order']); ?>">
-                            <a href="/Home/Admin/ORDER" class="icon-bars"> 订单</a>
+                            <a href="/Home/Admin/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="<?php echo ($header['order_order']); ?>"><a href="/Home/Admin/order">订单列表</a></li>
                             </ul> 
                         </li>
-
-                        <li><a href="#" class="icon-user"> 会员</a></li>
-                        <li><a href="#" class="icon-file"> 文件</a></li>
-                        <li><a href="#" class="icon-th-list"> 栏目</a></li>
+                        <li class="<?php echo ($header['statistics']); ?>">
+                            <a href="/Home/Admin/statistics" class="icon-table"> 数据</a>
+                            <ul>
+                                <li class="<?php echo ($header['statistics_statistics']); ?>"><a href="/Home/Admin/statistics">数据统计</a></li>
+                            </ul> 
+                        </li>
                     </ul>
                 </div>
                 <div class="admin-bread">
@@ -79,18 +82,36 @@
                 </div>
             </div>
         </div>
+    <script language="javascript" type="text/javascript" src="/Public/web/My97DatePicker/WdatePicker.js"></script>
     <div class="admin">
         <div class="panel admin-panel">
-            <div class="panel-head"><strong>菜品评价</strong></div>
+            <div class="panel-head"><strong>数据统计</strong></div>
             <div class="padding border-bottom">
             <form action="" method="get">
                 <div class="line">
-                    <div class="x6">
-                        <input type="text" class="input find" id="goods_id" name="goods_id" value="<?php echo ($findData['goods_id']); ?>" placeholder="请输入菜品编号">
+                    <div class="x3">
+                        <input class="input find" type="text" placeholder="开始日期" onClick="WdatePicker()" id="startDate" name="startDate" value="<?php echo ($statisticsData['startDate']); ?>" />
                     </div>
-                    <div class="x6">
-                        <input type="text" class="input find" id="shop_id" name="shop_id" value="<?php echo ($findData['shop_id']); ?>" placeholder="请输入商家编号">
+                    <div class="x3">
+                        <input class="input find" type="text" placeholder="开始日期" onClick="WdatePicker()" id="endDate" name="endDate" value="<?php echo ($statisticsData['endDate']); ?>" />
                     </div>
+                    <div class="x3">
+                        <select class="input" id="goods_id" name="goods_id">
+                            <option value="0">所有菜品</option>
+                            <?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['id']); ?>" 
+                                <?php if($vo['id'] == $statisticsData['goodsId']): ?>selected="selected"<?php endif; ?>
+                                ><?php echo ($vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </select>
+                    </div>
+                    <div class="x3">
+                        <select class="input" id="shop_id" name="shop_id">
+                            <option value="0">所有店铺</option>
+                            <?php if(is_array($shop)): $i = 0; $__LIST__ = $shop;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['id']); ?>" 
+                                <?php if($vo['id'] == $statisticsData['shopId']): ?>selected="selected"<?php endif; ?>
+                                ><?php echo ($vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </select>
+                    </div>
+
                 </div>
                 <div class="line" align="right" style="margin-top:10px;">
                     <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
@@ -98,28 +119,48 @@
                 </div>
             </form>
             </div>
-            <table class="table table-hover">
+            <table class="table table-bordered">
                 <tr>
-                    <th width="5%" style="text-align:center;">ID</th>
-                    <th width="10%" style="text-align:center;">商家</th>
-                    <th width="20%" style="text-align:center;">菜品</th>
-                    <th width="10%" style="text-align:center;">用户</th>
-                    <th width="30%" style="text-align:center;">评价内容</th>
-                    <th width="15%" style="text-align:center;">评价时间</th>
-                    <th width="10%" style="text-align:center;">操作</th>
+                    <td>
+                        开始日期
+                    </td>                    
+                    <td>
+                        <?php echo ($statisticsData['startDate']); ?>
+                    </td>
                 </tr>
-                <?php if(is_array($goodsComment['list'])): $i = 0; $__LIST__ = $goodsComment['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center">
-                        <td ><?php echo ($vo['id']); ?></td>
-                        <td ><?php echo ($vo['shop_name']); ?></td>
-                        <td ><?php echo ($vo['goods_name']); ?></td>
-                        <td><?php echo ($vo['username']); ?></td>
-                        <td><?php echo ($vo['content']); ?></td>
-                        <td><?php echo date("Y-m-d H:i:s", $vo['time']); ?></td>
-                        <td>
-                        <a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteGoodsComment(<?php echo ($vo['id']); ?>);}return false;}">删除</a></td>
-                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                <tr>
+                    <td>
+                        结束日期
+                    </td>                    
+                    <td>
+                        <?php echo ($statisticsData['endDate']); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        菜品名称
+                    </td>                    
+                    <td>
+                        <?php echo ($statisticsData['goodsName']); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        订单数量
+                    </td>                    
+                    <td>
+                        <?php echo ($statisticsData['orderNumber']); ?>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        总金额
+                    </td>                    
+                    <td>
+                        ￥ <?php echo ($statisticsData['orderAmount']); ?>
+                    </td>
+                </tr>
             </table>
-            <?php echo ($goodsComment['page']); ?>                     
         </div>
         <br />
     </div>

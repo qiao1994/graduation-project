@@ -32,17 +32,18 @@
                         <li class="{$header['index']}">
                             <a href="__CONTROLLER__" class="icon-home"> 开始</a>
                             <ul>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
+                                <li><a href="__CONTROLLER__/user">用户管理</a></li>
+                                <li><a href="__CONTROLLER__/shop">商家管理</a></li>
+                                <li><a href="__CONTROLLER__/goods">菜品管理</a></li>
+                                <li><a href="__CONTROLLER__/order">订单管理</a></li>
+                                <li><a href="__CONTROLLER__/order">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="{$header['user']}">
                             <a href="__CONTROLLER__/user" class="icon-user"> 用户</a>
                             <ul>
                                 <li class="{$header['user_user']}"><a href="__CONTROLLER__/user">用户列表</a></li>
-                                <li class="{$header['user_seller']}"><a href="__CONTROLLER__/seller">商家用户</a></li>
+                                <li class="{$header['user_seller']}"><a href="__CONTROLLER__/statistics">商家用户</a></li>
                             </ul>
                         </li>
                         <li class="{$header['shop']}">
@@ -60,15 +61,17 @@
 
                         </li>
                         <li class="{$header['order']}">
-                            <a href="__CONTROLLER__/ORDER" class="icon-bars"> 订单</a>
+                            <a href="__CONTROLLER__/order" class="icon-bars"> 订单</a>
                             <ul>
                                 <li class="{$header['order_order']}"><a href="__CONTROLLER__/order">订单列表</a></li>
                             </ul> 
                         </li>
-
-                        <li><a href="#" class="icon-user"> 会员</a></li>
-                        <li><a href="#" class="icon-file"> 文件</a></li>
-                        <li><a href="#" class="icon-th-list"> 栏目</a></li>
+                        <li class="{$header['statistics']}">
+                            <a href="__CONTROLLER__/statistics" class="icon-table"> 数据</a>
+                            <ul>
+                                <li class="{$header['statistics_statistics']}"><a href="__CONTROLLER__/statistics">数据统计</a></li>
+                            </ul> 
+                        </li>
                     </ul>
                 </div>
                 <div class="admin-bread">

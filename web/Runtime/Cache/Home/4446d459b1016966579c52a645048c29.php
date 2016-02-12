@@ -46,6 +46,7 @@
                             <a href="/Home/Seller/goods" class="icon-shopping-cart"> 菜品</a>
                             <ul>
                                 <li class="<?php echo ($header['goods_goods']); ?>"><a href="/Home/Seller/goods">菜品列表</a></li>
+                                <li class="<?php echo ($header['goods_comment']); ?>"><a href="/Home/Seller/goodsComment">菜品评价</a></li>
                                 <li class="<?php echo ($header['goods_create']); ?>"><a href="/Home/Seller/goodsCreate">新增菜品</a></li>
                             </ul>   
                         </li>

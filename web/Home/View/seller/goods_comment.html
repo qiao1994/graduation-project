@@ -1,0 +1,40 @@
+<include file="Public:seller_header"/>
+    <div class="admin">
+        <div class="panel admin-panel">
+            <div class="panel-head"><strong>菜品评价</strong></div>
+            <div class="padding border-bottom">
+            <form action="" method="get">
+                <div class="line">
+                    <div class="x6">
+                        <input type="text" class="input find" id="goods_id" name="goods_id" value="{$findData['goods_id']}" placeholder="请输入菜品编号">
+                    </div>
+                </div>
+                <div class="line" align="right" style="margin-top:10px;">
+                    <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
+                    <input type="submit" class="button button-small border-blue" value="提交查询">
+                </div>
+            </form>
+            </div>
+            <table class="table table-hover">
+                <tr>
+                    <th width="5%" style="text-align:center;">ID</th>
+                    <th width="30%" style="text-align:center;">菜品</th>
+                    <th width="10%" style="text-align:center;">用户</th>
+                    <th width="40%" style="text-align:center;">评价内容</th>
+                    <th width="15%" style="text-align:center;">评价时间</th>
+                </tr>
+                <volist name="goodsComment['list']" id="vo">
+                    <tr align="center">
+                        <td >{$vo['id']}</td>
+                        <td >{$vo['goods_name']}</td>
+                        <td>{$vo['username']}</td>
+                        <td>{$vo['content']}</td>
+                        <td><?php echo date("Y-m-d H:i:s", $vo['time']); ?></td>
+                    </tr>
+                </volist>
+            </table>
+            {$goodsComment['page']}                     
+        </div>
+        <br />
+    </div>
+<include file="Public:seller_footer"/>
