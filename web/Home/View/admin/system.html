@@ -1,0 +1,54 @@
+<include file="Public:admin_header"/>
+        <div class="admin">
+            <form method="post" class="form-x" enctype="multipart/form-data">
+                <div class="form-group">
+                    <div class="label">
+                        <label for="name">系统名称</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="name" name="name" size="50" placeholder="系统名称" data-validate="required:请填写系统名称"  value="{$system['name']}" />
+                    </div>
+                </div>              
+                <div class="form-group">
+                    <div class="label">
+                        <label for="slider[0]">滑动图片1</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/wap/img/Index/index/slider/{$system['slider'][0]}" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="slider[0]"/></a>
+                        <div class="input-note">
+                            详情页滑动图片1，分辨率260*100
+                        </div>
+                    </div>
+                </div>  
+                <div class="form-group">
+                    <div class="label">
+                        <label for="slider[1]">滑动图片2</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/wap/img/Index/index/slider/{$system['slider'][1]}" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="slider[1]"/></a>
+                        <div class="input-note">
+                            详情页滑动图片1，分辨率260*100
+                        </div>
+                    </div>
+                </div>  
+                <div class="form-group">
+                    <div class="label">
+                        <label for="slider[2]">滑动图片3</label>
+                    </div>
+                    <div class="field">
+                        <img src="__PUBLIC__/wap/img/Index/index/slider/{$system['slider'][2]}" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="slider[2]"/></a>
+                        <div class="input-note">
+                            详情页滑动图片1，分辨率260*100
+                        </div>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <input type="hidden" id="id" name="id" value="1" />
+                    <button class="button bg-main" type="submit">提交</button>
+                </div>
+            </form>
+        </div>
+<include file="Public:admin_footer"/>

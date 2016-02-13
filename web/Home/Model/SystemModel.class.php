@@ -11,7 +11,7 @@ class SystemModel extends Model {
     * 自动完成
     */
     protected $_auto = array(
-        array('slider_img','handleSilderImg', 3, 'callback'),
+        // array('slider_img', 'handleSilderImg', 3, 'callback'),
     );
 
 
@@ -28,12 +28,12 @@ class SystemModel extends Model {
         return $system;
     }
 
-    /**
-    * 处理滑动图
-    */
-    public function handleSilderImg() {
-        $this->slider_img = implode(';', $this->slider);
-    }
+    // /**
+    // * 处理滑动图
+    // */
+    // public function handleSilderImg() {
+    //     $this->slider_img = implode(';', $this->slider);
+    // }
 
     /**
     * 获取系统统计信息

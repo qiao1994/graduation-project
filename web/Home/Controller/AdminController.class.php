@@ -419,7 +419,47 @@ class AdminController extends Controller {
         $this->assign('statisticsData', $statisticsData);
         $this->display('statistics');
     }
-    
+
+    /**
+    * 系统设置
+    */
+    public function system() {
+        if (IS_POST) {
+            //处理图片上传
+            for($i = 0; $i < 3; $i++) {
+                if (!empty($_FILES['slider']['tmp_name'][$i])) {
+                    $upload = new \Think\Upload();// 实例化上传类
+                    $upload->maxSize = 10485760 ;// 设置附件上传大小 10M
+                    $upload->exts = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+                    $upload->rootPath = './Public/wap/img/Index/index/slider/'; // 设置附件上传根目录
+                    $upload->savePath = ''; // 设置附件上传（子）目录
+                    $upload->saveName = 'slider'.$i;
+                    $upload->replace = true;
+                    $upload->autoSub = false;
+                    $info = $upload->upload();
+                    if(!$info) {// 上传错误提示错误信息
+                        $this->error('滑动图片'.$i.$upload->getError());
+                    }
+                    $_POST['slider'][$i] = $info[$i]['savename'];
+                }
+            }
+            //更新system信息
+            $system = D('System')->getById(1);
+            $system['slider'] = explode(';', $system['slider_img']);
+            for ($i=0; $i < 3; $i++) { 
+                if (empty($_POST['slider'][$i])) {
+                    $_POST['slider'][$i] = $system['slider'][$i];
+                }
+            }
+            $_POST['slider_img'] = implode(';', $_POST['slider']);
+            D('system')->create($_POST);
+            D('system')->save();
+            $this->success('更新成功!', U('Admin/System'));
+        }
+        $this->assign('header', ['title'=>'系统设置', 'system'=>'active', 'system_system'=>'active','bread1'=>'系统', 'bread2'=>'系统设置', 'url'=>'system', 'icon'=>'icon-cog']);
+        $this->display('system');
+    }
+
     /**
     * 注销
     */

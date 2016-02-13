@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 
     <head>
@@ -90,54 +90,57 @@
                 </div>
             </div>
         </div>
-		<div class="admin">
-			<div class="panel admin-panel">
-				<div class="panel-head"><strong>用户列表</strong></div>
-				<div class="padding border-bottom">
-				<form action="" method="get">
-					<div class="line">
-	                    <div class="x3">
-	                        <input type="text" class="input find" id="id" name="id" value="<?php echo ($findData['id']); ?>" placeholder="请输入用户编号">
-	                    </div>
-	                    <div class="x3">
-	                        <input type="text" class="input find" id="username" name="username" value="<?php echo ($findData['username']); ?>" placeholder="请输入用户名">
-	                    </div>
-	                    <div class="x3">
-	                        <input type="text" class="input find" id="phone" name="phone" value="<?php echo ($findData['phone']); ?>" placeholder="请输入用户电话">
-	                    </div>
-	                    <div class="x3">
-	                        <input type="text" class="input find" id="qq" name="qq" value="<?php echo ($findData['qq']); ?>" placeholder="请输入用户QQ">
-	                    </div>
-	                </div>
-	                <div class="line" align="right" style="margin-top:10px;">
-	                    <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
-	                    <input type="submit" class="button button-small border-blue" value="提交查询">
-	                </div>
-	            </form>
-				</div>
-				<table class="table table-hover">
-					<tr>
-						<th width="5%" style="text-align:center;">ID</th>
-						<th width="20%" style="text-align:center;">用户名</th>
-						<th width="15%" style="text-align:center;">余额</th>
-						<th width="20%" style="text-align:center;">电话</th>
-						<th width="10%" style="text-align:center;">QQ</th>
-						<th width="20%" style="text-align:center;">微信</th>
-						<th width="10%" style="text-align:center;">操作</th>
-					</tr>
-					<?php if(is_array($user['list'])): $i = 0; $__LIST__ = $user['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center">
-							<td ><?php echo ($vo['id']); ?></td>
-							<td><?php echo ($vo['username']); ?></td>
-							<td>￥ <?php echo ($vo['balance']); ?></td>
-							<td><?php echo ($vo['phone']); ?></td>
-							<td><?php echo ($vo['qq']); ?></td>
-							<td><?php echo ($vo['wechat']); ?></td>
-							<td><a class="button border-blue button-little" href="#" onclick="{if(confirm('确认重置当前用户密码?')){resetPassword(<?php echo ($vo['id']); ?>);}return false;}">重置</a> <a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteUser(<?php echo ($vo['id']); ?>);}return false;}">删除</a></td>
-						</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-				</table>
-				<?php echo ($user['page']); ?>						
-			</div>
-			<br />
-		</div>
+        <div class="admin">
+            <form method="post" class="form-x" enctype="multipart/form-data">
+                <div class="form-group">
+                    <div class="label">
+                        <label for="name">系统名称</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input" id="name" name="name" size="50" placeholder="系统名称" data-validate="required:请填写系统名称"  value="<?php echo ($system['name']); ?>" />
+                    </div>
+                </div>              
+                <div class="form-group">
+                    <div class="label">
+                        <label for="slider[0]">滑动图片1</label>
+                    </div>
+                    <div class="field">
+                        <img src="/Public/wap/img/Index/index/slider/<?php echo ($system['slider'][0]); ?>" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="slider[0]"/></a>
+                        <div class="input-note">
+                            详情页滑动图片1，分辨率260*100
+                        </div>
+                    </div>
+                </div>  
+                <div class="form-group">
+                    <div class="label">
+                        <label for="slider[1]">滑动图片2</label>
+                    </div>
+                    <div class="field">
+                        <img src="/Public/wap/img/Index/index/slider/<?php echo ($system['slider'][1]); ?>" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="slider[1]"/></a>
+                        <div class="input-note">
+                            详情页滑动图片1，分辨率260*100
+                        </div>
+                    </div>
+                </div>  
+                <div class="form-group">
+                    <div class="label">
+                        <label for="slider[2]">滑动图片3</label>
+                    </div>
+                    <div class="field">
+                        <img src="/Public/wap/img/Index/index/slider/<?php echo ($system['slider'][2]); ?>" style="width:260px;height:100px;margin-right:10px;" />
+                        <a class="button input-file bg-green" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="slider[2]"/></a>
+                        <div class="input-note">
+                            详情页滑动图片1，分辨率260*100
+                        </div>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <input type="hidden" id="id" name="id" value="1" />
+                    <button class="button bg-main" type="submit">提交</button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>

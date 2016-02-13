@@ -37,6 +37,7 @@
                                 <li><a href="/Home/Admin/goods">菜品管理</a></li>
                                 <li><a href="/Home/Admin/order">订单管理</a></li>
                                 <li><a href="/Home/Admin/statistics">数据统计</a></li>
+                                <li><a href="/Home/Admin/system">系统设置</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">
@@ -72,6 +73,13 @@
                                 <li class="<?php echo ($header['statistics_statistics']); ?>"><a href="/Home/Admin/statistics">数据统计</a></li>
                             </ul> 
                         </li>
+                        <li class="<?php echo ($header['system']); ?>">
+                            <a href="/Home/Admin/system" class="icon-cog"> 系统</a>
+                            <ul>
+                                <li class="<?php echo ($header['system_system']); ?>"><a href="/Home/Admin/system">系统设置</a></li>
+                            </ul> 
+                        </li>
+
                     </ul>
                 </div>
                 <div class="admin-bread">
