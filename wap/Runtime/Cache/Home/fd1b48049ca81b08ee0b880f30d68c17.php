@@ -66,7 +66,7 @@
                 <input type="text" id="remark" name="remark">
             </div>
             <div class="ui-btn-group" style="margin-top:20px">
-                <button class="ui-btn-lg ui-btn-primary" type="submit">
+                <button class="ui-btn-lg ui-btn-primary" type="submit" onclick="{if(confirm('确认购买?')){return true;}return false;}">
                     提交
                 </button>
                 <button class="ui-btn-lg" type="button" onclick="javascript:history.go(-1);" >

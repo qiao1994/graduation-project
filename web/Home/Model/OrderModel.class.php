@@ -40,14 +40,14 @@ class OrderModel extends Model {
         $list = $this->order('purchase_time desc')->limit($page->firstRow.','.$page->listRows)->select();
         //--补充用户信息
         foreach ($list as $key => $value) {
-            $list[$key]['user'] = D('user')->getById($value['user_id']);
+            $list[$key]['user'] = D('User')->getById($value['user_id']);
+            $list[$key]['shop'] = D('Shop')->getById($value['shop_id']);
         }
         return array(
             'list'=>$list, 
             'page'=>$show,
         );
     }
-
 
     /**
     * 通过关键字查询订单
@@ -62,7 +62,12 @@ class OrderModel extends Model {
                 break;
             }
         }
-        return $order = $this->where([$findKey=>$findWord])->select();
+        $order = $this->where([$findKey=>$findWord])->select();
+        foreach ($order as $key => $value) {
+            $order[$key]['user'] = D('User')->getById($value['user_id']);
+            $order[$key]['shop'] = D('Shop')->getById($value['shop_id']);
+        }
+        return $order;
     }
 
     /**
@@ -73,7 +78,7 @@ class OrderModel extends Model {
     * @param intger $shopId
     * @return array $statisticsData
     */
-    public function getStatistics($startDate = '', $endDate ='', $goodsId = 0, $shopId = 0) {
+    public function getStatistics($startDate = '', $endDate ='', $goods_id = 0, $shop_id = 0) {
         //--初始化日期参数
         if ($startDate == '') {
             $startDate = date('Y-m-d');
@@ -84,25 +89,23 @@ class OrderModel extends Model {
         //--获取统计信息
         $statisticsData['startDate'] = $startDate;
         $statisticsData['endDate'] = $endDate;
-        $statisticsData['goodsId'] = $goodsId;
-        $statisticsData['shopId'] = $shopId;
+        $statisticsData['goods_id'] = $goods_id;
+        $statisticsData['shop_id'] = $shop_id;
         $startDate = strtotime($startDate);
         $endDate = strtotime($endDate);
-        $map['purchase_time'] = ['gt', $startDate];
-        $map_1['purchase_time'] = ['lt', $entDate];
         $where = 'purchase_time > '.$startDate.' AND purchase_time < '.$endDate;
-        if ($goodsId != 0) {
+        if ($goods_id != 0) {
             //--统计指定菜品订单信息
-            $goods = D('Goods')->getById($goodsId);
+            $goods = D('Goods')->getById($goods_id);
             $statisticsData['goodsName'] = $goods['name'];
-            $statisticsData['orderNumber'] = D('order')->where($where)->where(['goods_id'=>$goodsId])->count();
-            $statisticsData['orderAmount'] = D('order')->where($where)->where(['goods_id'=>$goodsId])->sum('binary amount');
-        } else if ($shopId != 0) {
+            $statisticsData['orderNumber'] = D('order')->where($where)->where(['goods_id'=>$goods_id])->count();
+            $statisticsData['orderAmount'] = D('order')->where($where)->where(['goods_id'=>$goods_id])->sum('binary amount');
+        } else if ($shop_id != 0) {
             //--统计当前店铺的所有订单
-            $shop = D('Shop')->getById($shopId);
+            $shop = D('Shop')->getById($shop_id);
             $statisticsData['goodsName'] = $shop['name'].'的所有菜品';
-            $statisticsData['orderNumber'] = D('order')->where($where)->where(['shop_id'=>$shopId])->count();
-            $statisticsData['orderAmount'] = D('order')->where($where)->where(['shop_id'=>$shopId])->sum('binary amount');
+            $statisticsData['orderNumber'] = D('order')->where($where)->where(['shop_id'=>$shop_id])->count();
+            $statisticsData['orderAmount'] = D('order')->where($where)->where(['shop_id'=>$shop_id])->sum('binary amount');
         } else {
             //--统计所有店铺订单信息
             $statisticsData['goodsName'] = '所有店铺的所有菜品';

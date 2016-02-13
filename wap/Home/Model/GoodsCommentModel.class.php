@@ -77,7 +77,7 @@ class GoodsCommentModel extends Model {
     * 能否评价
     * @param string $order_id
     * @param intger $user_id
-    * @return boolean
+    * @return intger 0-不能评价 1-查看评价 2-可以评价
     */
     public function ifComment($order_id, $user_id = 0) {
         if ($user_id == 0) {
@@ -86,14 +86,13 @@ class GoodsCommentModel extends Model {
         //--根据状态判定能否评价
         $order = D('Order')->getById($order_id);
         if ($order['state'] != '订单完成') {
-            return false;
+            return 0;
         }
-
         $goodsComment = $this->where(['order_id'=>$order_id, 'user_id'=>$user_id])->find();
         if ($goodsComment) {
-            return false;
+            return 1;
         } else {
-            return true;
+            return 2;
         }
 
     }

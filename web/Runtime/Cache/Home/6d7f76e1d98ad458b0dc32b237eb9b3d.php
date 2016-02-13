@@ -30,10 +30,10 @@
                         <li class="<?php echo ($header['index']); ?>">
                             <a href="/Home/Seller" class="icon-home"> 开始</a>
                             <ul>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
+                                <li><a href="/Home/Seller/shop">店铺信息</a></li>
+                                <li><a href="/Home/Seller/goods">菜品管理</a></li>
+                                <li><a href="/Home/Seller/order">订单管理</a></li>
+                                <li><a href="/Home/Seller/statistics">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['shop']); ?>">
@@ -87,20 +87,21 @@
 					<div class="panel">
 						<div class="panel-head"><strong>店铺统计</strong></div>
 						<ul class="list-group">
-							<li><span class="float-right badge bg-red">88</span><span class="icon-user"></span> 用户</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-file"></span> 文件</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-shopping-cart"></span> 订单</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-file-text"></span> 内容</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-database"></span> 数据库</li>
+							<li>
+							<span class="float-right badge bg-grey "><?php echo ($statisticsData['goodsNumber']); ?></span><span class="icon-shopping-cart"></span> 菜品
+							</li>
+							<li><span class="float-right badge bg-green"><?php echo ($statisticsData['orderNumber']); ?></span><span class="icon-bars"></span> 订单数量</li>
+							<li><span class="float-right badge bg-red"><?php echo ($statisticsData['toHandleOrderNumber']); ?></span><span class="icon-bars"></span> 待处理订单</li>	
+							<li><span class="float-right badge bg-main"><?php echo ($statisticsData['toFinishOrderNumber']); ?></span><span class="icon-bars"></span> 未完成订单</li>
 						</ul>
 					</div>
 					<br />
 				</div>
 				<div class="xm9">
 					<div class="alert">
-						<h4><?php echo ($shop['name']); ?></h4>
+						<h1><?php echo ($shop['name']); ?></h1>
 						<p class="text-gray padding-top">
-							<?php echo ($shop['introduction']); ?>
+							<?php echo ($shop['details']); ?>
 						</p>
 					</div>
 				</div>

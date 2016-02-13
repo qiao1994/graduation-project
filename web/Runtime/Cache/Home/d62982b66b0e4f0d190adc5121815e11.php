@@ -36,7 +36,7 @@
                                 <li><a href="/Home/Admin/shop">商家管理</a></li>
                                 <li><a href="/Home/Admin/goods">菜品管理</a></li>
                                 <li><a href="/Home/Admin/order">订单管理</a></li>
-                                <li><a href="/Home/Admin/order">数据统计</a></li>
+                                <li><a href="/Home/Admin/statistics">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">
@@ -99,7 +99,7 @@
                         <select class="input" id="goods_id" name="goods_id">
                             <option value="0">所有菜品</option>
                             <?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['id']); ?>" 
-                                <?php if($vo['id'] == $statisticsData['goodsId']): ?>selected="selected"<?php endif; ?>
+                                <?php if($vo['id'] == $statisticsData['goods_id']): ?>selected="selected"<?php endif; ?>
                                 ><?php echo ($vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                         </select>
                     </div>
@@ -107,7 +107,7 @@
                         <select class="input" id="shop_id" name="shop_id">
                             <option value="0">所有店铺</option>
                             <?php if(is_array($shop)): $i = 0; $__LIST__ = $shop;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['id']); ?>" 
-                                <?php if($vo['id'] == $statisticsData['shopId']): ?>selected="selected"<?php endif; ?>
+                                <?php if($vo['id'] == $statisticsData['shop_id']): ?>selected="selected"<?php endif; ?>
                                 ><?php echo ($vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                         </select>
                     </div>

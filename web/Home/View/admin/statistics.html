@@ -17,7 +17,7 @@
                             <option value="0">所有菜品</option>
                             <volist name="goods" id="vo">
                                 <option value="{$vo['id']}" 
-                                <if condition="$vo['id'] eq $statisticsData['goodsId']">
+                                <if condition="$vo['id'] eq $statisticsData['goods_id']">
                                     selected="selected"
                                 </if>
                                 >{$vo['name']}</option>
@@ -29,7 +29,7 @@
                             <option value="0">所有店铺</option>
                             <volist name="shop" id="vo">
                                 <option value="{$vo['id']}" 
-                                <if condition="$vo['id'] eq $statisticsData['shopId']">
+                                <if condition="$vo['id'] eq $statisticsData['shop_id']">
                                     selected="selected"
                                 </if>
                                 >{$vo['name']}</option>

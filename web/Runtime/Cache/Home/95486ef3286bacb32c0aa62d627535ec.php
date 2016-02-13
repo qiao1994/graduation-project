@@ -30,10 +30,10 @@
                         <li class="<?php echo ($header['index']); ?>">
                             <a href="/Home/Seller" class="icon-home"> 开始</a>
                             <ul>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
-                                <li><a href="#">示例</a></li>
+                                <li><a href="/Home/Seller/shop">店铺信息</a></li>
+                                <li><a href="/Home/Seller/goods">菜品管理</a></li>
+                                <li><a href="/Home/Seller/order">订单管理</a></li>
+                                <li><a href="/Home/Seller/statistics">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['shop']); ?>">

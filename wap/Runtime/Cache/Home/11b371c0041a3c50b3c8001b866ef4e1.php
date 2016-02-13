@@ -34,13 +34,16 @@
     .page a {
         padding: 0px 5px;
     }
+    .order-tr {
+        line-height: 39px;
+    }
     </style>
     <table class="ui-table ui-border-tb">
         <thead>
-            <tr><th>订单号</th><th>菜品名称</th><th>购买时间</th><th>订单状态</th></tr>
+            <tr class="order-tr"><th>订单号</th><th>菜品名称</th><th>购买时间</th><th>订单状态</th></tr>
         </thead>
         <tbody>
-            <?php if(is_array($order['list'])): $i = 0; $__LIST__ = $order['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr><td><?php echo ($vo['id']); ?></td><td><?php echo ($vo['goods_name']); ?></td><td><?php echo date('Y-m-d H:i:s', $vo['purchase_time']); ?></td><td><a href="/Home/Index/order/id/<?php echo ($vo['id']); ?>"><?php echo ($vo['state']); ?></a></td></tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            <?php if(is_array($order['list'])): $i = 0; $__LIST__ = $order['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="order-tr"><td><?php echo ($vo['id']); ?></td><td><?php echo ($vo['goods_name']); ?></td><td><?php echo date('Y-m-d H:i:s', $vo['purchase_time']); ?></td><td><a href="/Home/Index/order/id/<?php echo ($vo['id']); ?>"><?php echo ($vo['state']); ?></a></td></tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>
     <div class="page">

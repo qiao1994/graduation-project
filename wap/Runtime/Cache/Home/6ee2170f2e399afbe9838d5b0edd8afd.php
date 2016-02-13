@@ -27,7 +27,12 @@
     <input type="hidden" id="controller" value="/Home/Index">
 
     <script src="/Public/wap/js/order_detail.js"></script>
-    <table class="ui-table ui-border-tb">
+    <style type="text/css">
+    .order-detail-table tr{
+        line-height: 30px;
+    }
+    </style>
+    <table class="ui-table ui-border-tb order-detail-table">
         <tbody>
             <tr>
                 <td>
@@ -129,9 +134,11 @@
     </table>
     <div class="ui-btn-group" style="margin-top: 40px;">
         <button class="ui-btn-lg ui-btn-primary"
-            <?php if($order['if_comment']): ?>id="comment-button" >评价
-            <?php else: ?>
-                disabled >评价<?php endif; ?>
+            <?php if($order['if_comment'] == 2): ?>id="comment-button" >评价
+            <?php elseif($order['if_comment'] == 0): ?>
+                disabled >评价
+            <?php elseif($order['if_comment'] == 1): ?>
+                id="comment-button" >查看评价<?php endif; ?>
         </button>
         <button class="ui-btn-lg" onclick="javascript:history.go(-1);">
             返回
@@ -146,16 +153,20 @@
             <form action="/Home/Index/goodsComment" method="post" id="comment-form">
                 <div class="ui-dialog-bd">
                     <div>
-                        <div class="ui-form-item ui-form-item-textarea ui-border-radius">
+                        <div class="ui-form-item ui-form-item-textarea ui-border-radius" style="padding: 0px;">
                             <input id="goods_id" name="goods_id" type="hidden" value="<?php echo ($order['goods_id']); ?>">
                             <input id="order_id" name="order_id" type="hidden" value="<?php echo ($order['id']); ?>">
-                            <textarea placeholder="请输入评价内容" id="content" name="content" style="padding-left: 0px;"></textarea>
+                            <textarea placeholder="请输入评价内容" id="content" name="content" style="padding-left: 0px;margin-top: 0px;padding-top: 0px;"
+                            <?php if($order['if_comment'] == 1): ?>disabled<?php endif; ?>
+                            ><?php if($order['if_comment'] == 1): echo ($order['comment']['content']); endif; ?></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="ui-dialog-ft">
-                    <button type="button" class="comment-dialog-close" data-role="button">取消</button>
-                    <button type="submit" data-role="button">提交</button>
+                    <?php if($order['if_comment'] == 1): ?><button type="button" class="comment-dialog-close" data-role="button">确定</button>
+                    <?php else: ?>
+                        <button type="button" class="comment-dialog-close" data-role="button">取消</button>
+                        <button type="submit" data-role="button">提交</button><?php endif; ?>
                 </div>
             </form>
         </div>        

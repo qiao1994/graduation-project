@@ -16,11 +16,12 @@
 					<div class="panel">
 						<div class="panel-head"><strong>站点统计</strong></div>
 						<ul class="list-group">
-							<li><span class="float-right badge bg-red">88</span><span class="icon-user"></span> 用户</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-file"></span> 文件</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-shopping-cart"></span> 订单</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-file-text"></span> 内容</li>
-							<li><span class="float-right badge bg-main">828</span><span class="icon-database"></span> 数据库</li>
+							<li><span class="float-right badge bg-main">{$statisticsData['userNumber']}</span><span class="icon-user"></span> 用户数量</li>
+							<li><span class="float-right badge bg-main">{$statisticsData['shopNumber']}</span><span class="icon-bank"></span> 店铺数量</li>
+							<li><span class="float-right badge bg-main">{$statisticsData['goodsNumber']}</span><span class="icon-shopping-cart"></span> 菜品数量</li>
+							<li><span class="float-right badge bg-main">{$statisticsData['orderNumber']}</span><span class="icon-bars"></span> 订单数量</li>
+							<li><span class="float-right badge bg-main">{$statisticsData['toHandleOrderNumber']}</span><span class="icon-bars"></span> 待处理订单</li>
+							<li><span class="float-right badge bg-main">{$statisticsData['toFinishOrderNumber']}</span><span class="icon-bars"></span> 未完成订单</li>
 						</ul>
 					</div>
 					<!-- 网站统计信息结束 -->
@@ -52,32 +53,20 @@
 						<div class="panel-head"><strong>系统信息</strong></div>
 						<table class="table">
 							<tr>
-								<th colspan="2">服务器信息</th>
-								<th colspan="2">系统信息</th>
-							</tr>
-							<tr>
 								<td width="110" align="right">操作系统：</td>
-								<td>Windows 2008</td>
-								<td width="90" align="right">系统开发：</td>
-								<td><a href="http://www.pintuer.com" target="_blank">拼图前端框架</a></td>
+								<td>CentOS</td>
 							</tr>
 							<tr>
 								<td align="right">Web服务器：</td>
-								<td>Apache</td>
-								<td align="right">主页：</td>
-								<td><a href="http://www.pintuer.com" target="_blank">http://www.pintuer.com</a></td>
+								<td>Nginx</td>
 							</tr>
 							<tr>
 								<td align="right">程序语言：</td>
 								<td>PHP</td>
-								<td align="right">演示：</td>
-								<td><a href="http://www.pintuer.com/demo/" target="_blank">demo/</a></td>
 							</tr>
 							<tr>
 								<td align="right">数据库：</td>
 								<td>MySQL</td>
-								<td align="right">群交流：</td>
-								<td><a href="http://shang.qq.com/wpa/qunwpa?idkey=a08e4d729d15d32cec493212f7672a6a312c7e59884a959c47ae7a846c3fadc1" target="_blank">201916085</a> (点击加入)</td>
 							</tr>
 						</table>
 					</div>

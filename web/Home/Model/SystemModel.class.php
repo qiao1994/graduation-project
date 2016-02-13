@@ -34,4 +34,18 @@ class SystemModel extends Model {
     public function handleSilderImg() {
         $this->slider_img = implode(';', $this->slider);
     }
+
+    /**
+    * 获取系统统计信息
+    * @return array $statisticsData 统计信息
+    */
+    public function getStatisticsData() {
+        $statisticsData['userNumber'] = D('User')->count();
+        $statisticsData['shopNumber'] = D('Shop')->count();
+        $statisticsData['goodsNumber'] = D('Goods')->count();
+        $statisticsData['orderNumber'] = D('Order')->count();
+        $statisticsData['toHandleOrderNumber'] = D('Order')->where(['state'=>'等待处理'])->count();
+        $statisticsData['toFinishOrderNumber'] = D('Order')->where(['state'=>['neq', '订单完成']])->count();
+        return $statisticsData;
+    }
 }

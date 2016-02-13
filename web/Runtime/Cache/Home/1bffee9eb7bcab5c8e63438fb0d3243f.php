@@ -36,7 +36,7 @@
                                 <li><a href="/Home/Admin/shop">商家管理</a></li>
                                 <li><a href="/Home/Admin/goods">菜品管理</a></li>
                                 <li><a href="/Home/Admin/order">订单管理</a></li>
-                                <li><a href="/Home/Admin/order">数据统计</a></li>
+                                <li><a href="/Home/Admin/statistics">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">

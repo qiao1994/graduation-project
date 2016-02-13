@@ -130,4 +130,20 @@ class ShopModel extends Model {
         return $shop;
     }
 
+    /**
+    * 获取当前店铺统计信息
+    * @param intger $id 店铺id
+    * @return array $statisticsData 统计信息
+    */
+    public function getStatisticsData($id = 0) {
+        if ($id == 0) {
+            $id = $this->getShopByUser()['id'];
+        }
+        $statisticsData['goodsNumber'] = D('Goods')->where(['shop_id'=>$id])->count();
+        $statisticsData['orderNumber'] = D('Order')->where(['shop_id'=>$id])->count();
+        $statisticsData['toHandleOrderNumber'] = D('Order')->where(['shop_id'=>$id, 'state'=>'等待处理'])->count();
+        $statisticsData['toFinishOrderNumber'] = D('Order')->where(['shop_id'=>$id, 'state'=>['neq', '订单完成']])->count();
+        return $statisticsData;
+    }
+
 }

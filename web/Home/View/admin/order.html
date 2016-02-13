@@ -14,7 +14,6 @@
                     <div class="x4">
                         <input type="text" class="input find" id="shop_id" name="shop_id" value="{$findData['shop_id']}" placeholder="请输入店铺编号">
                     </div>
-
                 </div>
                 <div class="line" align="right" style="margin-top:10px;">
                     <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
@@ -48,7 +47,7 @@
             </table>
             {$order['page']}                     
         </div>
-        <br />
+        <br/>
     </div>
     <!-- 订单详情 -->
     <volist name="order['list']" id="vo">
@@ -67,6 +66,15 @@
                                 {$vo['id']}
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                店铺名称
+                            </td>
+                            <td id="goods_name">
+                                {$vo['shop']['name']}
+                            </td>
+                        </tr>
+
                         <tr>
                             <td>
                                 菜品名称

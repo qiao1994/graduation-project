@@ -36,7 +36,7 @@
                                 <li><a href="/Home/Admin/shop">商家管理</a></li>
                                 <li><a href="/Home/Admin/goods">菜品管理</a></li>
                                 <li><a href="/Home/Admin/order">订单管理</a></li>
-                                <li><a href="/Home/Admin/order">数据统计</a></li>
+                                <li><a href="/Home/Admin/statistics">数据统计</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo ($header['user']); ?>">
@@ -97,7 +97,6 @@
                     <div class="x4">
                         <input type="text" class="input find" id="shop_id" name="shop_id" value="<?php echo ($findData['shop_id']); ?>" placeholder="请输入店铺编号">
                     </div>
-
                 </div>
                 <div class="line" align="right" style="margin-top:10px;">
                     <input type="button" class="button button-small border-yellow" value="清空" onclick="resetFind()">
@@ -129,7 +128,7 @@
             </table>
             <?php echo ($order['page']); ?>                     
         </div>
-        <br />
+        <br/>
     </div>
     <!-- 订单详情 -->
     <?php if(is_array($order['list'])): $i = 0; $__LIST__ = $order['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div id="order-detail-<?php echo ($vo['id']); ?>">
@@ -147,6 +146,15 @@
                                 <?php echo ($vo['id']); ?>
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                店铺名称
+                            </td>
+                            <td id="goods_name">
+                                <?php echo ($vo['shop']['name']); ?>
+                            </td>
+                        </tr>
+
                         <tr>
                             <td>
                                 菜品名称

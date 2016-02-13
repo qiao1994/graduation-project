@@ -103,7 +103,6 @@ class OrderModel extends Model {
         );
     }
 
-
     /**
     * 获取指定订单
     * @param intger $id
@@ -117,6 +116,7 @@ class OrderModel extends Model {
         $order['shop'] = D('shop')->getShopByGoodsId($order['goods_id']);
         //补充评价信息
         $order['if_comment'] = D('GoodsComment')->ifComment($order['id']);
+        $order['comment'] = D('GoodsComment')->getByOrderId($id);
         return $order;
     }
 

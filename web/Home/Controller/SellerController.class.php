@@ -39,14 +39,16 @@ class SellerController extends Controller {
             $this->assign('header', ['title'=>$system['name'].'-商家管理登录']);
             $this->display('login');
         } else {
-            //--已经登录
-            //显示主页
-            $system = D('System')->getSystem();
-            $this->assign('system', $system);
+            //--已经登录，显示主页
             $this->assign('seller', session('seller'));
-            //获取当前商家
+            //--获取当前商家
             $this->assign('shop', D('Shop')->getShopByUser());
+            $system = D('System')->getSystem();
             $this->assign('header', ['title'=>$system['name'].'-商家管理','index'=>'active', 'bread1'=>'开始', 'bread2'=>'', 'url'=>'index', 'icon'=>'icon-home']);
+            //--统计信息
+            $this->assign('statisticsData', D('Shop')->getStatisticsData());
+            //菜品
+            $statisticsData = D('Shop')->getStatisticsData();
             $this->display('index');
         }
     }
@@ -129,9 +131,7 @@ class SellerController extends Controller {
         $this->assign('shop', D('Shop')->getShopByUser());
         $this->display('shop');
     }
-
-
-
+    
     /**
     * 菜品列表
     * @param intger $id 菜品id

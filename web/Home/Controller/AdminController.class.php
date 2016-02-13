@@ -44,6 +44,8 @@ class AdminController extends Controller {
             $system = D('System')->getSystem();
             $this->assign('admin', session('admin'));
             $this->assign('header', ['title'=>$system['name'].'-后台管理','index'=>'active', 'bread1'=>'开始', 'bread2'=>'', 'url'=>'index', 'icon'=>'icon-home']);
+            //--统计信息
+            $this->assign('statisticsData', D('System')->getStatisticsData());
             $this->display('index');
         }
     }
@@ -351,6 +353,7 @@ class AdminController extends Controller {
             }
         }
     }
+
     /**
     * 订单列表
     * @param intger $id 订单号
@@ -397,6 +400,7 @@ class AdminController extends Controller {
             }
         }
     }
+    
     /**
     * 统计数据
     * @param string $startDate 开始日期
@@ -416,8 +420,6 @@ class AdminController extends Controller {
         $this->display('statistics');
     }
     
-
-
     /**
     * 注销
     */
