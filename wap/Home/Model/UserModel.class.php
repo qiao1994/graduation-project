@@ -22,12 +22,12 @@ class UserModel extends Model {
     * @param array post数据
     * @return boolean 登录是否成功
     */
-    public function userLogin($data) {
-        $user = $this->where(['username'=>$data['username'], 'password'=>md5(sha1($data['password']))])->find();
+    public function userLogin($data, $type = 'user') {
+        $user = $this->where(['username'=>$data['username'], 'password'=>md5(sha1($data['password'])), 'type'=>$type])->find();
         if (!$user) {
             return false;
         }
-        session('user', $user);            
+        session($type, $user);            
         return true;
     }
 
@@ -35,11 +35,11 @@ class UserModel extends Model {
     * 用户是否登录
     * @return boolean 当前是否有用户登录
     */
-    public function userIfLogin() {
-        if (!session('user')) {
+    public function userIfLogin($type = 'user') {
+        if (!session($type)) {
             return false;
         }
-        $user = session('user');
+        $user = session($type);
         if ($this->where(['username'=>$user['username'], 'password'=>$user['password']])->find()) {
             return true;
         }

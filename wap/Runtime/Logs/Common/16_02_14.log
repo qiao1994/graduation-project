@@ -1,0 +1,288 @@
+[ 2016-02-14T13:49:26+08:00 ] 192.168.1.105 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2016-02-14T13:49:26+08:00 ] 192.168.1.105 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-02-14T13:49:26+08:00 ] 192.168.1.105 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2016-02-14T13:49:26+08:00 ] 192.168.1.105 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2016-02-14T13:49:26+08:00 ] 192.168.1.105 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2016-02-14T14:13:27+08:00 ] 192.168.1.105 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T14:13:27+08:00 ] 192.168.1.105 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T14:13:27+08:00 ] 192.168.1.105 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T14:13:27+08:00 ] 192.168.1.105 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2016-02-14T14:13:27+08:00 ] 192.168.1.105 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2016-02-14T16:14:50+08:00 ] 127.0.0.1 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:50+08:00 ] 127.0.0.1 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:50+08:00 ] 127.0.0.1 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:50+08:00 ] 127.0.0.1 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:50+08:00 ] 127.0.0.1 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:50+08:00 ] 127.0.0.1 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:53+08:00 ] 127.0.0.1 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:53+08:00 ] 127.0.0.1 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:53+08:00 ] 127.0.0.1 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:53+08:00 ] 127.0.0.1 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:53+08:00 ] 127.0.0.1 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:14:53+08:00 ] 127.0.0.1 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:15:17+08:00 ] 192.168.1.105 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:15:17+08:00 ] 192.168.1.105 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T16:15:17+08:00 ] 192.168.1.105 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:07:34+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:07:40+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:11:55+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:11:56+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:11:57+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:12:54+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:12:57+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:12:57+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:13:41+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:22+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:36+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:38+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:39+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:41+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:42+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:43+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:30:44+08:00 ] 127.0.0.1 /Public/wap/frozenui-1.3.0/css/frozen.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:39:00+08:00 ] 192.168.1.105 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:39:00+08:00 ] 192.168.1.105 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:39:00+08:00 ] 192.168.1.105 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:39:02+08:00 ] 127.0.0.1 /Public/slider2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:39:02+08:00 ] 127.0.0.1 /Public/slider1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-14T17:39:02+08:00 ] 127.0.0.1 /Public/slider0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Public
+

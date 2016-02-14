@@ -1,0 +1,1067 @@
+[ 2016-02-14T14:13:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-02-14T16:14:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-02-14T16:14:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2016-02-14T16:14:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-02-14T16:14:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-02-14T16:14:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2016-02-14T16:14:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-02-14T16:15:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-02-14T16:15:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-02-14T16:15:21+08:00 ] 127.0.0.1 /Home/Admin/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop` ORDER BY serial  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( purchase_time > 1455379200 AND purchase_time < 1455465600 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(binary amount) AS tp_sum FROM `order` WHERE ( purchase_time > 1455379200 AND purchase_time < 1455465600 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 32 行.
+NOTIC: [8] Undefined index: user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 43 行.
+NOTIC: [8] Undefined index: user_user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 46 行.
+NOTIC: [8] Undefined index: user_seller /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 47 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 50 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 53 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 56 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 59 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 60 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 64 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 67 行.
+NOTIC: [8] Undefined index: system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 76 行.
+NOTIC: [8] Undefined index: system_system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-02-14T16:15:21+08:00 ] 127.0.0.1 /Home/Admin/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop` ORDER BY serial  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( purchase_time > 1455379200 AND purchase_time < 1455465600 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(binary amount) AS tp_sum FROM `order` WHERE ( purchase_time > 1455379200 AND purchase_time < 1455465600 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 32 行.
+NOTIC: [8] Undefined index: user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 43 行.
+NOTIC: [8] Undefined index: user_user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 46 行.
+NOTIC: [8] Undefined index: user_seller /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 47 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 50 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 53 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 56 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 59 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 60 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 64 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 67 行.
+NOTIC: [8] Undefined index: system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 76 行.
+NOTIC: [8] Undefined index: system_system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/d62982b66b0e4f0d190adc5121815e11.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-02-14T16:15:23+08:00 ] 127.0.0.1 /Home/Admin/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-14T16:15:23+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-02-14T16:15:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-02-14T16:15:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-02-14T16:15:29+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-02-14T16:15:34+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-02-14T16:15:34+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2016-02-14T16:15:35+08:00 ] 127.0.0.1 /Home/Seller/goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sellertest2' AND `password` = 'b99dcd6a6eb4c5f0c0913de2cab185f7' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 438 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 220 LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 50 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 53 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 56 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 60 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 63 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 83 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-02-14T16:15:35+08:00 ] 127.0.0.1 /Home/Seller/goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sellertest2' AND `password` = 'b99dcd6a6eb4c5f0c0913de2cab185f7' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 438 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 220 LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 30 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 42 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 49 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 50 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 53 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 56 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 60 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 63 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 83 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/95486ef3286bacb32c0aa62d627535ec.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-02-14T16:15:37+08:00 ] 127.0.0.1 /Home/Seller/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sellertest2' AND `password` = 'b99dcd6a6eb4c5f0c0913de2cab185f7' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-14T16:15:38+08:00 ] 127.0.0.1 /Home/Seller/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-02-14T17:25:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-02-14T17:25:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2016-02-14T17:25:50+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-02-14T17:25:51+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-02-14T17:25:51+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2016-02-14T17:25:57+08:00 ] 127.0.0.1 /Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-02-14T17:25:57+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `state` = '等待处理' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `state` <> '订单完成' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 43 行.
+NOTIC: [8] Undefined index: user_user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 46 行.
+NOTIC: [8] Undefined index: user_seller /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 47 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 50 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 53 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 56 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 59 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 60 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 64 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 67 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 70 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 73 行.
+NOTIC: [8] Undefined index: system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 76 行.
+NOTIC: [8] Undefined index: system_system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/cf70265afab0ea62c5317f603ad902e7.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-02-14T17:26:01+08:00 ] 127.0.0.1 /Home/Admin/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order` ORDER BY purchase_time desc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 32 行.
+NOTIC: [8] Undefined index: user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 43 行.
+NOTIC: [8] Undefined index: user_user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 46 行.
+NOTIC: [8] Undefined index: user_seller /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 47 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 50 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 53 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 56 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 59 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 60 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 70 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 73 行.
+NOTIC: [8] Undefined index: system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 76 行.
+NOTIC: [8] Undefined index: system_system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 79 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 100 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 103 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 106 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-02-14T17:38:51+08:00 ] 127.0.0.1 /Home/Admin/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order` ORDER BY purchase_time desc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 32 行.
+NOTIC: [8] Undefined index: user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 43 行.
+NOTIC: [8] Undefined index: user_user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 46 行.
+NOTIC: [8] Undefined index: user_seller /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 47 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 50 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 53 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 56 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 59 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 60 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 70 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 73 行.
+NOTIC: [8] Undefined index: system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 76 行.
+NOTIC: [8] Undefined index: system_system /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 79 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 100 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 103 行.
+NOTIC: [8] Undefined variable: findData /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 106 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+NOTIC: [8] Use of undefined constant 等待处理 - assumed '等待处理' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 240 行.
+NOTIC: [8] Use of undefined constant 制作中 - assumed '制作中' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 243 行.
+NOTIC: [8] Use of undefined constant 制作完成 - assumed '制作完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 246 行.
+NOTIC: [8] Use of undefined constant 订单完成 - assumed '订单完成' /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/0b5bb246bc75778e3a9c82a0ff11090c.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-02-14T17:38:52+08:00 ] 127.0.0.1 /Home/Admin/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-02-14T17:38:52+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-02-14T17:38:53+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2016-02-14T17:39:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-02-14T17:39:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-02-14T17:39:05+08:00 ] 127.0.0.1 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-02-14T17:39:07+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-02-14T17:39:09+08:00 ] 127.0.0.1 /home/seller
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `shop_id` = 219 AND `state` = '等待处理' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `shop_id` = 219 AND `state` <> '订单完成' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop` WHERE `user_id` = 435 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `shop_id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `shop_id` = 219 AND `state` = '等待处理' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `shop_id` = 219 AND `state` <> '订单完成' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./web/Home/View/Public/sller_footer.html): failed to open stream: No such file or directory /Users/qiaomaoshuang/web/bysj/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 39 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 42 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 45 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 48 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 49 行.
+NOTIC: [8] Undefined index: goods_create /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 50 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 53 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 56 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 60 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/6d7f76e1d98ad458b0dc32b237eb9b3d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-02-14T17:39:11+08:00 ] 127.0.0.1 /Home/Seller/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'seller' AND `password` = 'a7ffb71736912204bc6d615641590450' AND `type` = 'seller' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-02-14T17:39:12+08:00 ] 127.0.0.1 /Home/Seller/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+

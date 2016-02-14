@@ -5270,3 +5270,474 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
 
+[ 2016-02-13T18:13:38+08:00 ] 192.168.1.100 /Home/Index/goods/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_comment` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_comment` WHERE `goods_id` = 39 ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-02-13T18:13:40+08:00 ] 192.168.1.100 /Home/Index/buy/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-02-13T18:13:42+08:00 ] 192.168.1.100 /Home/Index/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2016-02-13T18:13:43+08:00 ] 192.168.1.100 /Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `user_id` = 436 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 436 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-02-13T18:13:44+08:00 ] 192.168.1.100 /Home/Index/order/id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE `id` = 52 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_comment` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order` WHERE `id` = 52 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_comment` WHERE `order_id` = '52' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-02-13T18:13:47+08:00 ] 192.168.1.100 /Home/Index/order/id/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_comment` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_comment` WHERE `order_id` = '60' AND `user_id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_comment` WHERE `order_id` = '60' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-02-13T18:13:54+08:00 ] 192.168.1.100 /Home/Index/order/id/58
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `order` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_comment` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_comment` WHERE `order_id` = '58' AND `user_id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_comment` WHERE `order_id` = '58' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-02-13T18:14:38+08:00 ] 192.168.1.100 /Home/Index/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-02-13T18:14:46+08:00 ] 192.168.1.100 /Home/Index/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop` WHERE `state` = 1 ORDER BY serial  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-02-13T18:14:48+08:00 ] 192.168.1.100 /Home/Index/shop/id/220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 220 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 220 AND `state` = 1 ORDER BY serial  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-02-13T18:14:51+08:00 ] 192.168.1.100 /Home/Index/shop/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `shop_id` = 219 AND `state` = 1 ORDER BY serial  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-02-13T18:14:53+08:00 ] 192.168.1.100 /Home/Index/goods/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods_comment` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_comment` WHERE `goods_id` = 39 ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-02-13T18:14:55+08:00 ] 192.168.1.100 /Home/Index/buy/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-02-13T18:14:58+08:00 ] 192.168.1.100 /Home/Index/buy/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `balance`='12577.6' WHERE `id` = 436 [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value /Users/qiaomaoshuang/web/bysj/wap/Home/Model/OrderModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Users/qiaomaoshuang/web/bysj/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/qiaomaoshuang/web/bysj/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `order` (`user_id`,`goods_id`,`shop_id`,`goods_name`,`univalent`,`number`,`amount`,`remark`,`purchase_time`,`processing_time`) VALUES ('436','39','219','溜肥肠','28.8','1','28.8','','1455358498','1455358498') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fund_change` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Users/qiaomaoshuang/web/bysj/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/qiaomaoshuang/web/bysj/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `fund_change` (`user_id`,`associate_id`,`time`,`type`,`amount`,`before_change`,`after_change`) VALUES ('436','62','1455358498','订单扣款','28.8','12606.4','12577.6') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-02-13T18:14:59+08:00 ] 192.168.1.100 /Home/Index/Order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE `user_id` = 436 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 436 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-02-13T18:15:00+08:00 ] 192.168.1.100 /Home/Index/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'usertest' AND `password` = '233befdecbb49918228f9ac10040e382' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 436 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+

@@ -18133,3 +18133,40 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000221s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
 
+[ 2016-02-13T17:18:48+08:00 ] 127.0.0.1 /Home/Admin/system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admintest' AND `password` = '0cce3b71d87d2c6ccd07a8831d8e61e0' AND `type` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: index /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 32 行.
+NOTIC: [8] Undefined index: user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 43 行.
+NOTIC: [8] Undefined index: user_user /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 46 行.
+NOTIC: [8] Undefined index: user_seller /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 47 行.
+NOTIC: [8] Undefined index: shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 50 行.
+NOTIC: [8] Undefined index: shop_shop /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 53 行.
+NOTIC: [8] Undefined index: goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 56 行.
+NOTIC: [8] Undefined index: goods_goods /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 59 行.
+NOTIC: [8] Undefined index: goods_comment /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 60 行.
+NOTIC: [8] Undefined index: order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 64 行.
+NOTIC: [8] Undefined index: order_order /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 67 行.
+NOTIC: [8] Undefined index: statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 70 行.
+NOTIC: [8] Undefined index: statistics_statistics /Users/qiaomaoshuang/web/bysj/web/Runtime/Cache/Home/b24daeee527aca2ba772678b5b558cf0.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+

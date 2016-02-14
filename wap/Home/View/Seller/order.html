@@ -1,0 +1,61 @@
+<include file="Public:seller_header"/>
+    <style type="text/css">
+    .page {
+        float: right;
+        padding-right: 10px;
+    }
+    .page a {
+        padding: 0px 5px;
+    }
+    .order-tr {
+        line-height: 39px;
+    }
+    </style>
+    <script type="text/javascript">
+        function changeOrderState(orderId, state) {
+            var controller = $('#controller').val();
+            $.ajax({
+                url:controller+'/ajaxChangeOrderState',
+                type:'POST',
+                dataType:'text',
+                data:'id='+orderId+'&state='+state,
+                success:function(ret) {
+                    if (ret == 0) {
+                        alert('操作成功');
+                        location.reload();
+                        return true;
+                    } else {
+                        alert('操作失败');
+                        return false;
+                    }
+                },
+            });
+        }
+    </script>
+    <table class="ui-table ui-border-tb">
+        <thead>
+            <tr class="order-tr"><th>菜品名称</th><th>数量</th><th>备注</th><th>联系方式</th><th>状态</th><th>操作</th></tr>
+        </thead>
+        <tbody>
+            <volist name="order" id="vo">
+                <tr class="order-tr">
+                    <td>{$vo['goods_name']}</td>
+                    <td>{$vo['number']}</td>
+                    <td>{$vo['remark']}</td>
+                    <td>{$vo['user']['phone']}</td>
+                    <td>{$vo['state']}</td>
+                    <td>
+                    <if condition="$vo['state'] eq 等待处理">
+                        <a href="#" onclick="changeOrderState({$vo['id']}, '制作中');">制作中</a>
+                    <elseif condition="$vo['state'] eq 制作中"/>
+                        <a href="#" onclick="changeOrderState({$vo['id']}, '制作完成');">制作完成</a>                    
+                    <elseif condition="$vo['state'] eq 制作完成"/>
+                        <a href="#" onclick="changeOrderState({$vo['id']}, '订单完成');">订单完成</a>
+                    <else/>
+                    </if>
+                    </td>
+                </tr>
+            </volist>
+        </tbody>
+    </table>
+<include file="Public:seller_footer"/>
