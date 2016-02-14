@@ -59,7 +59,13 @@ class GoodsModel extends Model {
                 break;
             }
         }
-        return $goods = $this->where([$findKey=>$findWord])->select();
+        
+        $goods = $this->where([$findKey=>$findWord])->select();
+        foreach ($goods as $k => $v) {
+            $shop = D('Shop')->getById($v['shop_id']);
+            $goods[$k]['shop_name'] = $shop['name'];
+        }
+        return $goods;
     }
 
 

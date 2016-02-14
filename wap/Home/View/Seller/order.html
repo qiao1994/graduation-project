@@ -46,11 +46,11 @@
                     <td>{$vo['state']}</td>
                     <td>
                     <if condition="$vo['state'] eq 等待处理">
-                        <a href="#" onclick="changeOrderState({$vo['id']}, '制作中');">制作中</a>
+                        <a href="#" onclick="javascript:if(confirm('确定要更改当前订单状态？')){changeOrderState({$vo['id']}, '制作中');} else {return false;}">制作中</a>
                     <elseif condition="$vo['state'] eq 制作中"/>
-                        <a href="#" onclick="changeOrderState({$vo['id']}, '制作完成');">制作完成</a>                    
+                        <a href="#" onclick="javascript:if(confirm('确定要更改当前订单状态？')){changeOrderState({$vo['id']}, '制作完成');} else {return false;}">制作完成</a>                    
                     <elseif condition="$vo['state'] eq 制作完成"/>
-                        <a href="#" onclick="changeOrderState({$vo['id']}, '订单完成');">订单完成</a>
+                        <a href="#" onclick="javascript:if(confirm('确定要更改当前订单状态？')){changeOrderState({$vo['id']}, '订单完成');} else {return false;}">订单完成</a>
                     <else/>
                     </if>
                     </td>

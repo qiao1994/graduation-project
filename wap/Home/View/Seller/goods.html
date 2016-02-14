@@ -49,9 +49,9 @@
                     </td>
                     <td>
                     <if condition="$vo['state'] eq 1">
-                        <a href="#" onclick="changeGoodsState({$vo['id']}, 0);">下架菜品</a>
+                        <a href="#" onclick="javascript:if (confirm('确定要下架菜品？')){ changeGoodsState({$vo['id']}, 0); } else { return false;}">下架菜品</a>
                     <else/>
-                        <a href="#" onclick="changeGoodsState({$vo['id']}, 1);">上架菜品</a>
+                        <a href="#" onclick="javascript:if (confirm('确定要上架菜品？')){ changeGoodsState({$vo['id']}, 1); } else { return false;}"">上架菜品</a>
                     </if>
                     </td>
                 </tr>

@@ -108,14 +108,14 @@
                     <div class="x3">
                         <select class="input" name="recommend">
                             <option 
-                            <?php if(!$findData['recommend']): ?>selected="selected"<?php endif; ?>
-                            value="">是否推荐</option>
-                            <option 
                             <?php if($findData['recommend'] == 1): ?>selected="selected"<?php endif; ?>
                             value="1">推荐</option>
                             <option 
                             <?php if($findData['recommend'] == 0): ?>selected="selected"<?php endif; ?>
                             value="0">不推荐</option>
+                            <option 
+                            <?php if($findData['recommend'] == null): ?>selected="selected"<?php endif; ?>
+                            value="">是否推荐</option>
                         </select>
                     </div>
                 </div>
@@ -129,8 +129,8 @@
                 <tr>
                     <th width="5%" style="text-align:center;">ID</th>
                     <th width="15%" style="text-align:center;">名称</th>
-                    <th width="15%" style="text-align:center;">商家用户</th>
-                    <th width="25%" style="text-align:center;">地址</th>
+                    <th width="20%" style="text-align:center;">商家用户</th>
+                    <th width="20%" style="text-align:center;">地址</th>
                     <th width="15%" style="text-align:center;">电话</th>
                     <th width="5%" style="text-align:center;">推荐</th>
                     <th width="5%" style="text-align:center;">顺序</th>
@@ -149,8 +149,11 @@
                         </td>
                         <td><?php echo ($vo['serial']); ?></td>
                         <td>
-                        <a class="button border-blue button-little" href="/Home/Admin/shopUpdate/id/<?php echo ($vo['id']); ?>">编辑</a> 
                         <a class="button border-green button-little" href="/Home/Admin/goods/shop_id/<?php echo ($vo['id']); ?>">菜品</a> 
+                        <a class="button border-green button-little" href="/Home/Admin/order/shop_id/<?php echo ($vo['id']); ?>">订单</a> 
+                        <a class="button border-green button-little" href="/Home/Admin/goodsComment/shop_id/<?php echo ($vo['id']); ?>">评价</a> 
+                        <br/>
+                        <a class="button border-blue button-little" href="/Home/Admin/shopUpdate/id/<?php echo ($vo['id']); ?>">编辑</a> 
                         <a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){deleteShop(<?php echo ($vo['id']); ?>);}return false;}">删除</a></td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </table>

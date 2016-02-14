@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta name="format-detection" content="telephone=no">
-        <title><?php echo ($system['name']); ?></title>
+        <title>商家辅助系统</title>
         <link rel="stylesheet" href="/Public/wap/frozenui-1.3.0/css/frozen.css">
         <script src="/Public/wap/frozenui-1.3.0/lib/zepto.min.js"></script>
         <script src="/Public/wap/frozenui-1.3.0/js/frozen.js"></script> 
@@ -18,9 +18,8 @@
             </header><?php endif; ?>
         <footer class="ui-footer ui-footer-btn">
             <ul class="ui-tiled ui-border-t">
-                <li data-href="index.html" class="ui-border-r"><a href="/Home/Seller"><i class="ui-icon-home"></i></a></li>
-                <li data-href="seller.html" class="ui-border-r"><a href="/Home/Seller/shop"><i class="ui-icon-hall"></i></a></li>
-                <li data-href="user.html"><a href="/Home/Seller/user"><i class="ui-icon-personal"></i></a></li>
+                <li data-href="goods.html" class="ui-border-r"><a href="/Home/Seller/goods"><i class="ui-icon-cart"></i></a></li>
+                <li data-href="order.html" class="ui-border-r"><a href="/Home/Seller/order"><i class="ui-icon-order"></i></a></li>
             </ul>
         </footer>
         <section class="ui-container">

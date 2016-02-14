@@ -130,7 +130,7 @@
                         <td><?php echo ($vo['name']); ?></td>
                         <td>￥ <?php echo ($vo['univalent']); ?></td>
                         <td>
-                            <?php if($vo['state'] == 1): ?>正在销售
+                            <?php if($vo['sale_state'] == 1): ?>正在销售
                             <?php else: ?>
                                 暂停销售<?php endif; ?>
                         </td>                            

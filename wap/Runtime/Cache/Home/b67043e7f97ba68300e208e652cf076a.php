@@ -70,11 +70,11 @@
                     <td><?php echo ($vo['user']['phone']); ?></td>
                     <td><?php echo ($vo['state']); ?></td>
                     <td>
-                    <?php if($vo['state'] == 等待处理): ?><a href="#" onclick="changeOrderState(<?php echo ($vo['id']); ?>, '制作中');">制作中</a>
+                    <?php if($vo['state'] == 等待处理): ?><a href="#" onclick="javascript:if(confirm('确定要更改当前订单状态？')){changeOrderState(<?php echo ($vo['id']); ?>, '制作中');} else {return false;}">制作中</a>
                     <?php elseif($vo['state'] == 制作中): ?>
-                        <a href="#" onclick="changeOrderState(<?php echo ($vo['id']); ?>, '制作完成');">制作完成</a>                    
+                        <a href="#" onclick="javascript:if(confirm('确定要更改当前订单状态？')){changeOrderState(<?php echo ($vo['id']); ?>, '制作完成');} else {return false;}">制作完成</a>                    
                     <?php elseif($vo['state'] == 制作完成): ?>
-                        <a href="#" onclick="changeOrderState(<?php echo ($vo['id']); ?>, '订单完成');">订单完成</a>
+                        <a href="#" onclick="javascript:if(confirm('确定要更改当前订单状态？')){changeOrderState(<?php echo ($vo['id']); ?>, '订单完成');} else {return false;}">订单完成</a>
                     <?php else: endif; ?>
                     </td>
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>

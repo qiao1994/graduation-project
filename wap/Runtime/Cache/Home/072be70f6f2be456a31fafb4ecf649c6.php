@@ -32,7 +32,7 @@
     <!-- 首页滚动图 -->
     <div class="ui-slider" id="slider">
         <ul class="ui-slider-content">
-            <?php if(is_array($system['slider'])): $i = 0; $__LIST__ = $system['slider'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><span class="slide-img" style="background-image:url(/Public/<?php echo ($vo); ?>)"></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
+            <?php if(is_array($system['slider'])): $i = 0; $__LIST__ = $system['slider'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><span class="slide-img" style="background-image:url(/Public/wap/img/Index/index/slider/<?php echo ($vo); ?>)"></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
         </ul>
     </div>
     <script class="script">

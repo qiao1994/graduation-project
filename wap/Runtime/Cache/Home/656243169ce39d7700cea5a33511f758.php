@@ -71,9 +71,9 @@
                         已下架<?php endif; ?>
                     </td>
                     <td>
-                    <?php if($vo['state'] == 1): ?><a href="#" onclick="changeGoodsState(<?php echo ($vo['id']); ?>, 0);">下架菜品</a>
+                    <?php if($vo['state'] == 1): ?><a href="#" onclick="javascript:if (confirm('确定要下架菜品？')){ changeGoodsState(<?php echo ($vo['id']); ?>, 0); } else { return false;}">下架菜品</a>
                     <?php else: ?>
-                        <a href="#" onclick="changeGoodsState(<?php echo ($vo['id']); ?>, 1);">上架菜品</a><?php endif; ?>
+                        <a href="#" onclick="javascript:if (confirm('确定要上架菜品？')){ changeGoodsState(<?php echo ($vo['id']); ?>, 1); } else { return false;}"">上架菜品</a><?php endif; ?>
                     </td>
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

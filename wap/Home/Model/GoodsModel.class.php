@@ -25,7 +25,7 @@ class GoodsModel extends Model {
     * @return array 所有商品
     */
     public function getAllGoods() {
-        $goods = $this->where(['state'=>1])->order('serial')->select();
+        $goods = $this->where(['state'=>1, 'sale_state'=>1])->order('serial')->select();
         return $goods;
     }
 }
